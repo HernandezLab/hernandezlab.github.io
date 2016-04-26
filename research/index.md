@@ -1,7 +1,7 @@
 ---
-title: Research in the Hernandez Lab
+title: Research - Hernandez Lab
 layout: default
 group: research
 ---
 
-Hello world! We do research
+Coming soon.
