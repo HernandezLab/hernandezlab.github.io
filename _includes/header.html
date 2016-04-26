@@ -56,6 +56,10 @@
   <-- test yml -->
   {% for link in site.data.navlinks %}
     <p>{{link.name}}</p>
+    {% if page.group == link.group %}
+      <p> ^Active </p>
+    {% else %}
+    {% endif %}
   {% endfor %}
 
 
