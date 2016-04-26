@@ -43,11 +43,10 @@
           <ul class="nav navbar-nav navbar-right">
               {% for link in site.data.navlinks %}
                 {% if link.group == page.group %}
-                  <li class="active">
+                  <li class="active"><a href="{{link.link}}" alt="{{link.name}}">{{link.name}}</a></li>
                 {% else %}
-                  <li>
+                  <li><a href="{{link.link}}" alt="{{link.name}}">{{link.name}}</a></li>
                 {% endif %}
-                <a href="{{link.link}}" alt="{{link.name}}"> {{link.name}}</a></li>
               {% endfor %}
           </ul>
         </div>
