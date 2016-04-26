@@ -41,6 +41,15 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
+              {% for link in site.data.navlinks %}
+                {% if link.group == page.group %}
+                  <li class="active">
+                {% else %}
+                  <li>
+                {% endif %}
+                <a href="{{link.link}}" alt="{{link.name}}"> {{link.name}}</a></li>
+              {% endfor %}
+<!-- 
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#research">Research</a></li>
             <li><a href="#publications">Publications</a></li>
@@ -48,19 +57,14 @@
             <li><a href="#people">People</a></li>
             <li><a href="#news">News</a></li>
             <li><a href="#contact">Contact</a></li>
+ -->
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
   
   <-- test yml -->
-  {% for link in site.data.navlinks %}
-    <p>{{link.name}}</p>
-    {% if page.group == link.group %}
-      <p> ^Active </p>
-    {% else %}
-    {% endif %}
-  {% endfor %}
+
 
 
     
