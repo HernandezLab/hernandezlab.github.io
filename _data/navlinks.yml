@@ -1,0 +1,27 @@
+- name: Home
+  link: "/"
+  group: home
+
+- name: Research
+  link: "/research"
+  group: research
+
+- name: Publications
+  link: "/publications"
+  group: publications
+
+- name: Software
+  link: "/software"
+  group: software
+
+ - name: People
+  link: "/people"
+  group: people
+
+- name: News
+  link: "/news"
+  group: news
+
+- name: Contact
+  link: "/contact"
+  group: contact

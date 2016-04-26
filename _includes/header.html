@@ -12,6 +12,7 @@
 </head>
 
 <body>
+  <!-- UCSF Banner  --> 
   <div id="ucsf-banner-nav" class="logo">
     <div class="top-header-container row">
       <ul class="menu">
@@ -24,6 +25,7 @@
       </ul>
     </div>
   </div>
+  <!-- Hernandez Lab Banner -->
   <nav class="navbar navbar-default navbar-static-top">
     <div class="container">
       <div class="navbar-header">
@@ -50,3 +52,11 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+  
+  <-- test yml -->
+  {% for link in site.data.navlinks %}
+    <p>{{link.name}}</p>
+  {% endfor %}
+
+
+    
