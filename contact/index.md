@@ -5,7 +5,10 @@ group: contact
 ---
 # Contact
 
-Ryan Hernandez
+### Ryan Hernandez
+
+ryan.hernandez@ucsf.edu
+415-514-9813
 
 Associate Professor  
 Department of Bioengineering and Therapeutic Sciences  
@@ -15,10 +18,6 @@ Byers Hall 308A (Office)
 Byers Hall 301 (Lab)  
 1700 4th Street  
 San Francisco, CA 94158
-
-ryan.hernandez@ucsf.edu
-
-415-514-9813
 
 ## Join the Hernandez lab
 
