@@ -1,7 +1,7 @@
 ---
 title: News - Hernandez Lab
 layout: default
-group: News
+group: news
 ---
 
 Coming soon.

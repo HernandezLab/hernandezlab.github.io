@@ -1,7 +1,7 @@
 ---
 title: Software - Hernandez Lab
 layout: default
-group: Software
+group: software
 ---
 
 Coming soon.

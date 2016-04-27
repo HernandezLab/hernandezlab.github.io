@@ -1,7 +1,7 @@
 ---
 title: Contact - Hernandez Lab
 layout: default
-group: Contact
+group: contact
 ---
 
 Coming soon.

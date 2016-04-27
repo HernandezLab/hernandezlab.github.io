@@ -1,7 +1,7 @@
 ---
 title: Publications - Hernandez Lab
 layout: default
-group: Publications
+group: publications
 ---
 
 * A MOSAIC of methods: Improving ortholog detection through integration of algorithmic diversity

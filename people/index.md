@@ -1,7 +1,7 @@
 ---
 title: People - Hernandez Lab
 layout: default
-group: People
+group: people
 ---
 
 Coming soon.
