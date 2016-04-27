@@ -1,5 +1,4 @@
 ---
-title: News - Hernandez Lab
 layout: default
 group: news
 ---
