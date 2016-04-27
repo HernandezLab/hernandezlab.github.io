@@ -41,22 +41,33 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="/" alt="Home">Home</a></li>
-            <li><a href="/research" alt="Research">Research</a></li>
-            <li><a href="/publications" alt="Publications">Publications</a></li>
-            <li><a href="/software" alt="Software">Software</a></li>
-            <li><a href="/people" alt="People">People</a></li>
-            <li><a href="/news" alt="News">News</a></li>
-            <li><a href="/contact" alt="Contact">Contact</a></li>
+              {% for link in site.data.navlinks %}
+                {% if link.group == page.group %}
+                  <li class="active"><a href="{{link.link}}" alt="{{link.name}}">{{link.name}}</a></li>
+                {% else %}
+                  <li><a href="{{link.link}}" alt="{{link.name}}">{{link.name}}</a></li>
+                {% endif %}
+              {% endfor %}
           </ul>
+          
         </div>
       </div>
     </nav><!-- /Hernandez Lab Banner -->
-
+  
   This site is a prototype for the new Hernandez Lab website and is currently under development. Please visit <a href="http://dbts.ucsf.edu/hernandez_lab/">http://dbts.ucsf.edu/hernandez_lab/</a> in the mean time.
+    
+    <div class="container"><!-- Main content -->
+      <div class="starter-template">
+        <h1 id="research">Hernandez Lab</h1>
+        <p class="lead">
+          The Hernandez Lab studies patterns of genetic variation from populations around the world using large scale sequencing data. Using detailed simulations and population genetic modeling, we seek to understand the role that natural selection and demography have had on the patterning of variation throughout our genomes.
+        </p>
+  
+      </div>
 
+    </div><!-- /.container -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="static/js/bootstrap.min.js"></script>
+  <script src="/static/js/bootstrap.min.js"></script>
 
 </body>
 </html>
