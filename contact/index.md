@@ -20,3 +20,6 @@ ryan.hernandez@ucsf.edu
 
 415-514-9813
 
+## Join the Hernandez lab
+
+We are currently seeking excited postdocs and graduate students with experience or a strong desire to learn computational biology to tackle some of the most exciting projects on campus. Please [email Ryan Hernandez](mailto:ryan.hernandez@ucsf.edu) with your CV and a description of your research interests for more information.
