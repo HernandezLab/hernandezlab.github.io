@@ -42,4 +42,10 @@ Dominic did his undergraduate work at the University of British Columbia in Engi
 
 ## Staff
 
-Daniel Vasco
+### Daniel Vasco
+
+## Former Members
+
+#### Lawrence Uricchio
+
+#### Cyrus Maher
