@@ -8,7 +8,12 @@ group: research
 # Research
 
 <p class="lead">
-Our work focuses on data-driven modeling of the patterns of genetic variation within and between populations and species. We study both humans and non-human species (such as the medically relevant rhesus macaque and domesticated species like cows and rice). We frequently employ detailed population genetic simulations to better understand the implications of interacting evolutionary forces. We currently have three main lines of research:
+Our work focuses on data-driven modeling of the patterns of genetic variation 
+within and between populations and species. We study both humans and non-human 
+species (such as the medically relevant rhesus macaque and domesticated species 
+like cows and rice). We frequently employ detailed population genetic 
+simulations to better understand the implications of interacting evolutionary 
+forces. We currently have three main lines of research:
 </p>
 
 ## Population genetic modeling of human populations
