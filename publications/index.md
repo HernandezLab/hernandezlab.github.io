@@ -4,6 +4,8 @@ layout: default
 group: publications
 ---
 
+# Publications
+
 * A MOSAIC of methods: Improving ortholog detection through integration of algorithmic diversity
 Maher MC, Hernandez RD. (submitted)
 
