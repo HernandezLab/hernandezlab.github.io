@@ -77,9 +77,16 @@ make use evolutionary metrics to better understand pathology of disease.
 
 ### Melissa Spear
 
+[Biomedical Sciences (BMS) Graduate Program](https://bms.ucsf.edu/)
 
+Melissa did her undergraduate work at The University of Texas at El Paso in
+Biological Sciences. Her research delves in to the genetic history of admixed
+populations. When she is not in the lab, Melissa spends her time biking around
+SF and baking everything imaginable.
 
 ### Dominic Tong
+
+[UC Berkeley - UCSF Joint Graduate Program in Bioengineering](http://bioegrad.berkeley.edu/)
 
 Dominic did his undergraduate work at the University of British Columbia in
 Engineering Physics, a mix of electrical engineering and applied physics. He
