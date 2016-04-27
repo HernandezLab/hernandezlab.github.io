@@ -19,6 +19,6 @@ Byers Hall 301 (Lab)
 1700 4th Street  
 San Francisco, CA 94158
 
-## Join the Hernandez lab
+### Join the Hernandez lab
 
 We are currently seeking excited postdocs and graduate students with experience or a strong desire to learn computational biology to tackle some of the most exciting projects on campus. Please [email Ryan Hernandez](mailto:ryan.hernandez@ucsf.edu) with your CV and a description of your research interests for more information.
