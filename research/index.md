@@ -3,8 +3,6 @@ title: Research - Hernandez Lab
 layout: default
 group: research
 ---
-
-
 # Research
 
 <p class="lead">

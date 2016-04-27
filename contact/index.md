@@ -3,7 +3,6 @@ title: Contact - Hernandez Lab
 layout: default
 group: contact
 ---
-
 # Contact
 
 Ryan Hernandez
