@@ -38,20 +38,18 @@
           <span class="icon-bar"></span>
         </button>
           <a class="navbar-brand" href="#">Hernandez Lab</a>
-        </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-              {% for link in site.data.navlinks %}
-                {% if link.group == page.group %}
-                  <li class="active"><a href="{{link.link}}" alt="{{link.name}}">{{link.name}}</a></li>
-                {% else %}
-                  <li><a href="{{link.link}}" alt="{{link.name}}">{{link.name}}</a></li>
-                {% endif %}
-              {% endfor %}
+              <li><a href="/" alt="Home">Home</a></li>
+              <li class="active"><a href="/research" alt="Research">Research</a></li>
+              <li><a href="/publications" alt="Publications">Publications</a></li>
+              <li><a href="/software" alt="Software">Software</a></li>
+              <li><a href="/people" alt="People">People</a></li>
+              <li><a href="/news" alt="News">News</a></li>
+              <li><a href="/contact" alt="Contact">Contact</a></li>              
           </ul>
           
         </div>
-      </div>
     </nav><!-- /Hernandez Lab Banner -->
   
   This site is a prototype for the new Hernandez Lab website and is currently under development. Please visit <a href="http://dbts.ucsf.edu/hernandez_lab/">http://dbts.ucsf.edu/hernandez_lab/</a> in the mean time.
