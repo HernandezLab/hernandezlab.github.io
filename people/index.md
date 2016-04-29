@@ -61,7 +61,7 @@ within and between different human populations.
 
 ### Kevin Hartman
 
-[Bioinformatics Graduate Program](http://bioinformatics.ucsf.edu/)
+[Biological and Medical Informatics (BMI) Graduate Program](http://bioinformatics.ucsf.edu/)
 
 Kevin received his bachelors degree from the [California Institute of 
 Technology](https://www.caltech.edu/) in Chemical Engineering. Following that, 
