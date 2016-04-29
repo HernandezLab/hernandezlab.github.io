@@ -5,6 +5,7 @@ group: contact
 # Contact
 
 ### Ryan Hernandez
+![Hernandez headshot](/static/img/headshot-Hernandez.jpg)
 
 Associate Professor  
 Department of Bioengineering and Therapeutic Sciences  
