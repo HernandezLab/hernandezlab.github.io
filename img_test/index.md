@@ -4,4 +4,4 @@ group: image
 ---
 # IMG Test
 
-![test](static/img/headshot-Hernandez.jpg)
+![test](/static/img/headshot-Hernandez.jpg)
