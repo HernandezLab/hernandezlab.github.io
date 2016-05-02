@@ -26,8 +26,26 @@
       name: "Nicolas Strauli"
     - 
       affiliation: "[Biomedical Sciences (BMS) Graduate Program](https://bms.ucsf.edu/)"
-      description: "Line 1 Line 2"
+      description: "I am a graduate student in the Biomedical Sciences Graduate Program. I have undergraduate degrees in biology and anthropology and worked at the University of Chicago in the lab of Dr. Carole Ober. There, I worked to identify mitochondrial variants associated with preeclampsia in African Americans. I am broadly interested in understanding patterns of demography and natural selection in the human genome and how such patterns contribute to variation within and between different human populations."
+      image: /static/img/headshot-Torres.jpg
       name: "Raul Torres"
+    - 
+      affiliation: "[Biological and Medical Informatics (BMI) Graduate Program](http://bioinformatics.ucsf.edu/)"
+      contact:
+        |-
+          [kevin.hartman@ucsf.edu](mailto:kevin.hartman@ucsf.edu)  
+          [linkedin.com/in/khartman1](https://www.linkedin.com/in/khartman1)
+      description: "Kevin received his bachelors degree from the [California Institute of Technology](https://www.caltech.edu/) in Chemical Engineering. Following that, he worked in the biofuels industry for two years on scale up and validation microorganisms to produce fuel from renewable sources. His research will focus on developing tools to derive knowledge from population-level genomic and other sequencing data. Specifically, he will make use evolutionary metrics to better understand pathology of disease."
+      name: "Kevin Hartman"
+    - 
+      affiliation: "[Biomedical Sciences (BMS) Graduate Program](https://bms.ucsf.edu/)"
+      description: "Nicolas is interested in observing evolution take place in real-time. The purpose of this is two fold: (1) To use real-time evolution as a platform to test population genetics theory. (2) To gain knowledge about how quickly reproducing pathogens (or comensals) evolve in their host environment. Currently, he is working on a project that is addressing the question of how a single, genetically static human is able to fend off whole populations of quickly evolving pathogens. The answer clearly lies in the vast complexity of our immune systems, but with modern genetic sequencing technologies, we are only now able to address it. He plans to observe how a mouse's antibody repertoire, as well as the population of a pathogen, changes during the course of an infection."
+      image: /static/img/heashot-Strauli.jpg
+      name: "Nicolas Strauli"
+    - 
+      affiliation: "[Biomedical Sciences (BMS) Graduate Program](https://bms.ucsf.edu/)"
+      description: "Line 1 Line 2"
+      name: ""
     - 
       description: |-
           Line 1
