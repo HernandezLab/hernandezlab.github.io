@@ -11,14 +11,14 @@ group: test
       <p>{{member.title | markdownify}}</p>
       <p>{{member.contact | markdownify}}</p>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-8">
       <p>{{member.description | markdownify}}</p>
     </div>
   </div>
 {% endfor %}
 
 {% for group in site.data.ymltest %}
-  {% for member in {{group}} %}
+  {% for member in {{group.members}} %}
     {{member.name}}
   {% endfor %}
 {% endfor %}
