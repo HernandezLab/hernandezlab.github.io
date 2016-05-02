@@ -19,6 +19,10 @@ group: test
 
 {% for group in site.data.ymltest %}
   {% for member in {{group.members}} %}
-    {{member.name}}
+    <h2>{{group}}</h2>
+    {% if group != 'Ryan Hernandez' %}
+      <h3>{{member.name}}</h3>
+    {% endif %}
+    
   {% endfor %}
 {% endfor %}
