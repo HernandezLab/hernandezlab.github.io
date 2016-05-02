@@ -5,7 +5,7 @@ group: test
 
 
 
-{% for group in site.data.ymltest %}
+{% for group in site.data.members %}
   <h2>{{group.group}}</h2>
   {% for member in {{group.members}} %}
     {% if group.group != 'Ryan Hernandez' %}
