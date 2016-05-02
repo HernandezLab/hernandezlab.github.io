@@ -17,7 +17,11 @@ group: test
         <img src="{{member.image}}" alt="{{member.name}} headshot">
       {% endif %}
       {% if member.affiliation %}
-        <p>{{member.affiliation | markdownify}}</p>
+        <p>
+        {% for af in member.affiliation %}
+          {{af | markdownify}}<br>
+        {% endfor %}
+        </p>
       {% endif %}
       {% if member.contact %}
         <p>{{member.contact | markdownify}}</p>
