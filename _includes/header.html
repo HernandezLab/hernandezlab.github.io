@@ -42,7 +42,7 @@
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
             {% for link in site.data.navlinks %}
-              {% if link.group == page.group %}
+              {% if link.id == page.group %}
                 <li class="active"><a href="{{link.link}}" alt="{{link.name}}">{{link.name}}</a></li>
               {% else %}
                 <li><a href="{{link.link}}" alt="{{link.name}}">{{link.name}}</a></li>

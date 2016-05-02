@@ -1,5 +1,4 @@
 ---
-title: Publications - Hernandez Lab
 layout: default
 group: publications
 ---

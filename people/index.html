@@ -1,0 +1,34 @@
+---
+layout: default
+group: people
+---
+
+
+
+{% for group in site.data.members %}
+  <h2>{{group.group}}</h2>
+  {% for member in {{group.members}} %}
+    {% if group.group != 'Ryan Hernandez' %}
+      <h3>{{member.name}}</h3>
+    {% endif %}
+    <div class="row">
+    <div class="col-md-4">
+      {% if member.image %}
+        <img src="{{member.image}}" alt="{{member.name}} headshot">
+      {% endif %}
+      {% if member.affiliation %}
+        <p>{{member.affiliation | markdownify}}</p>
+      {% endif %}
+      {% if member.contact %}
+        <p>{{member.contact | markdownify}}</p>
+      {% endif %}
+    </div>
+    
+    <div class="col-md-8">
+      {% if member.description %}
+        <p>{{member.description | markdownify}}</p>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+{% endfor %}
