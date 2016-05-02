@@ -13,16 +13,19 @@
 - group: Postdoctoral Scholars
   members:
     - 
+      description: "I completed my BS in mathematics at the University if Michigan and my PhD in Bioinformatics with Noah Rosenberg. I study the properties and distribution of private genetic variation, its role in the inference of population demography, and its connections to admixture mapping and complex disease genetics."
       image: /static/img/headshot-Szpiech.jpg
       name: Zachary Szpiech
-      description: "I completed my BS in mathematics at the University if Michigan and my PhD in Bioinformatics with Noah Rosenberg. I study the properties and distribution of private genetic variation, its role in the inference of population demography, and its connections to admixture mapping and complex disease genetics."
 - 
   group: "Graduate Students"
   members: 
     - 
-      description: "Line 1 Line 2"
+      affiliation: "[Biomedical Sciences (BMS) Graduate Program](https://bms.ucsf.edu/)"
+      description: "Nicolas is interested in observing evolution take place in real-time. The purpose of this is two fold: (1) To use real-time evolution as a platform to test population genetics theory. (2) To gain knowledge about how quickly reproducing pathogens (or comensals) evolve in their host environment. Currently, he is working on a project that is addressing the question of how a single, genetically static human is able to fend off whole populations of quickly evolving pathogens. The answer clearly lies in the vast complexity of our immune systems, but with modern genetic sequencing technologies, we are only now able to address it. He plans to observe how a mouse's antibody repertoire, as well as the population of a pathogen, changes during the course of an infection."
+      image: /static/img/heashot-Strauli.jpg
       name: "Nicolas Strauli"
     - 
+      affiliation: "[Biomedical Sciences (BMS) Graduate Program](https://bms.ucsf.edu/)"
       description: "Line 1 Line 2"
       name: "Raul Torres"
     - 
