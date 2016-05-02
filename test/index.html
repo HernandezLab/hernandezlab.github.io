@@ -5,6 +5,7 @@ group: test
 
 {% for member in site.data.members %}
   <h3>{{member.name}}</h3>
+  <img src="{{member.image}}" alt="{{member.name}} headshot">
   <p>{{member.title | markdownify}}</p>
   <p>{{member.contact | markdownify}}</p>
   <p>{{member.description | markdownify}}</p>
