@@ -6,13 +6,15 @@
         |-
           Associate Professor  
           [Department of Bioengineering and Therapeutic Sciences](http://bts.ucsf.edu/)
+      contact: "[ryan.hernadez@ucsf.edu](mailto:ryan.hernadez@ucsf.edu)"
+      description: "Ryan studies patterns of genetic variation in modern day populations to gain insights into their evolutionary history. His focus is on the development of population genetic models that can best explain observed data, with the goal of understanding the genetic basis for complex traits.  Ryan's interests span basic population genetics, human disease genetics, and host-pathogen interactions.  His scientific approach tends to be highly computational, often involving a thorough analysis of detailed simulations."
       image: /static/img/headshot-Hernandez.jpg
       name: "Ryan Hernandez"
-      contact: '[ryan.hernadez@ucsf.edu](mailto:ryan.hernadez@ucsf.edu)'
-      description: "Ryan studies patterns of genetic variation in modern day populations to gain insights into their evolutionary history. His focus is on the development of population genetic models that can best explain observed data, with the goal of understanding the genetic basis for complex traits.  Ryan's interests span basic population genetics, human disease genetics, and host-pathogen interactions.  His scientific approach tends to be highly computational, often involving a thorough analysis of detailed simulations."
 - group: Postdoctoral Scholars
   members:
-    - name: Zachary Szpiech
+    - 
+      image: /static/img/headshot-Szpiech.jpg
+      name: Zachary Szpiech
       description: "I completed my BS in mathematics at the University if Michigan and my PhD in Bioinformatics with Noah Rosenberg. I study the properties and distribution of private genetic variation, its role in the inference of population demography, and its connections to admixture mapping and complex disease genetics."
 - 
   group: "Graduate Students"
