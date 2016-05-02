@@ -5,14 +5,17 @@ group: publications
 
 # Publications
 
-* A MOSAIC of methods: Improving ortholog detection through integration of algorithmic diversity
-Maher MC, Hernandez RD. (submitted)
+* #### A MOSAIC of methods: Improving ortholog detection through integration of algorithmic diversity  
+**Maher MC**, **Hernandez RD**.  
+(submitted)
 
-* Robust forward simulations of recurrent hitchhiking
-Uricchio LH, Hernandez RD. Genetics (in press).
+* #### Robust forward simulations of recurrent hitchhiking
+**Uricchio LH**, **Hernandez RD**.  
+Genetics (in press).
 
-* High-resolution network biology: connecting sequence with function
-Ryan CJ, Cimermancic P, Szpiech ZA, Sali A, Hernandez RD, Krogan NJ. Nat Rev Genet. 2013 Dec;14(12):865-79.
+* #### High-resolution network biology: connecting sequence with function  
+Ryan CJ, Cimermancic P, **Szpiech ZA**, Sali A, **Hernandez RD**, Krogan NJ  
+Nature Reviews Genetics (2013).
 
 * A genome-wide association study of bronchodilator response in Latinos implicates rare variants
 Hodgkinson A, Casals F, Idaghdour Y, Grenier JC, Hernandez RD, Awadalla P. BMC Genomics. 2013; 14:495.
