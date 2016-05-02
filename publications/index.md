@@ -58,7 +58,7 @@ Jäger S, Cimermancic P, Gulbahce N, Johnson JR, McGovern KE, Clarke SC, Shales 
 Nature (2012).
 
 * #### A population genetics-phylogenetics approach to inferring natural selection in coding sequences  
-Wilson DJ, *Hernandez RD*, Andolfatto P, Przeworski M  
+Wilson DJ, **Hernandez RD**, Andolfatto P, Przeworski M  
 PLOS Genetics (2011).
 
 * #### Meta-analysis of genome-wide association studies of asthma in ethnically diverse North American populations  
@@ -66,7 +66,7 @@ Torgerson DG, Ampleford EJ, Chiu GY, Gauderman WJ, Gignoux CR, Graves PE, Himes 
 Nature Genetics (2011).
 
 * #### Levels and patterns of nucleotide variation in domestication QTL regions on rice chromosome 3 suggest lineage-specific selection.  
-Xie X, Molina J, *Hernandez RD*, Reynolds A, Boyko AR, Bustamante CD, Purugganan MD  
+Xie X, Molina J, **Hernandez RD**, Reynolds A, Boyko AR, Bustamante CD, Purugganan MD  
 PLOS ONE (2011).
 
 * #### Classic Selective Sweeps Were Rare in Recent Human Evolution  
