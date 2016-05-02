@@ -25,7 +25,7 @@
       affiliation: "[Biomedical Sciences (BMS) Graduate Program](https://bms.ucsf.edu/)"
       contact: "[nicolas.strauli@ucsf.edu](mailto:nicolas.strauli@ucsf.edu)"
       description: "Nicolas is interested in observing evolution take place in real-time. The purpose of this is two fold: (1) To use real-time evolution as a platform to test population genetics theory. (2) To gain knowledge about how quickly reproducing pathogens (or comensals) evolve in their host environment. Currently, he is working on a project that is addressing the question of how a single, genetically static human is able to fend off whole populations of quickly evolving pathogens. The answer clearly lies in the vast complexity of our immune systems, but with modern genetic sequencing technologies, we are only now able to address it. He plans to observe how a mouse's antibody repertoire, as well as the population of a pathogen, changes during the course of an infection."
-      image: /static/img/heashot-Strauli.jpg
+      image: /static/img/headshot-Strauli.jpg
     - 
       name: "Raul Torres"
       affiliation: "[Biomedical Sciences (BMS) Graduate Program](https://bms.ucsf.edu/)"
@@ -55,6 +55,7 @@
           [dmctong@berkeley.edu](mailto:dmctong@berkeley.edu)  
           [dmctong.github.io](https://dmctong.github.io)
       description: "Dominic did his undergraduate work at the University of British Columbia in Engineering Physics, a mix of electrical engineering and applied physics. He then continued his insanity and started his Bioengineering PhD work with Dr. Ryan Hernandez at UCSF, primarily focused on the role of rare variants in determining complex phenotypes and how to use that information in diagnostics. In his spare time, Dominic likes to hike to the tops of things, build electromechanical trinkets of varying utility, and in the very near future, forge a sword."
+      image: /static/img/headshot-Tong.jpg
 -
   group: "Staff"
   members:
