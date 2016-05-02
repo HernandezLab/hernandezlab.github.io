@@ -5,5 +5,5 @@ group: test
 
 {% for member in site.data.members %}
   <h1>{{member.name}}</h1>
-  <p>{{member.description}}
+  <p>{{member.description | markdownify}}
 {% endfor %}
