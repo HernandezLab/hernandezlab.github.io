@@ -30,8 +30,8 @@ group: test
       {% if member.image %}
         <img src="{{member.image}}" alt="{{member.name}} headshot">
       {% endif %}
-      {% if member.title %}
-        <p>{{member.title | markdownify}}</p>
+      {% if member.affiliation %}
+        <p>{{member.affiliation | markdownify}}</p>
       {% endif %}
       {% if member.contact %}
         <p>{{member.contact | markdownify}}</p>
