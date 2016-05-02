@@ -4,6 +4,8 @@ group: test
 ---
 
 {% for member in site.data.members %}
-  <h1>{{member.name}}</h1>
-  <p>{{member.description | markdownify}}
+  <h3>{{member.name}}</h3>
+  <p>{{member.title | markdownify}}</p>
+  <p>{{member.contact | markdownify}}</p>
+  <p>{{member.description | markdownify}}</p>
 {% endfor %}
