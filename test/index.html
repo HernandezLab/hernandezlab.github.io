@@ -4,9 +4,15 @@ group: test
 ---
 
 {% for member in site.data.members %}
-  <h3>{{member.name}}</h3>
-  <img src="{{member.image}}" alt="{{member.name}} headshot">
-  <p>{{member.title | markdownify}}</p>
-  <p>{{member.contact | markdownify}}</p>
-  <p>{{member.description | markdownify}}</p>
+  <div class="row">
+    <div class="col-md-4">
+      <h3>{{member.name}}</h3>
+      <img src="{{member.image}}" alt="{{member.name}} headshot">
+      <p>{{member.title | markdownify}}</p>
+      <p>{{member.contact | markdownify}}</p>
+    </div>
+    <div class="col-md-4">
+      <p>{{member.description | markdownify}}</p>
+    </div>
+  </div>
 {% endfor %}
