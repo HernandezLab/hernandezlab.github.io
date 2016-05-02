@@ -16,3 +16,9 @@ group: test
     </div>
   </div>
 {% endfor %}
+
+{% for group in site.data.ymltest %}
+  {% for member in {{group}} %}
+    {{member.name}}
+  {% endfor %}
+{% endfor %}
