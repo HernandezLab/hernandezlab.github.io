@@ -7,8 +7,18 @@ group: people
 
 ## Ryan Hernandez
 
+<div class="row">
+  <div class="col-md-4">
+
+![Hernandez headshot](/static/img/headshot-Hernandez.jpg)
+  
 Associate Professor  
-[Department of Bioengineering and Therapeutic Sciences](http://bts.ucsf.edu/)  
+[Department of Bioengineering and Therapeutic Sciences](http://bts.ucsf.edu/)
+
+[ryan.hernandez@ucsf.edu](mailto:ryan.hernandez@ucsf.edu)
+
+    </div>
+  <div class="col-md-8">
 
 Ryan studies patterns of genetic variation in modern day populations to gain 
 insights into their evolutionary history. His focus is on the development of 
@@ -18,7 +28,7 @@ basic population genetics, human disease genetics, and host-pathogen
 interactions.  His scientific approach tends to be highly computational, often
 involving a thorough analysis of detailed simulations.
 
-[ryan.hernandez@ucsf.edu](mailto:ryan.hernandez@ucsf.edu)
+    </div>
 
 ## Postdoctoral Scholars
 
