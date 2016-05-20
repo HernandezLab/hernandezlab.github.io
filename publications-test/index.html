@@ -11,6 +11,16 @@ group: publications
     <a href="nothing">Zachary Szpiech</a><br/>
   </div>
   <div class="col-sm-9 col-sm-pull-3">
-    
+    <ul>
+      {% for pub in site.data.publications %}
+        <li>
+          <h4>{{pub.title}}</h4>
+          {% assign first = true %}
+          {% for au in pub.authors %}{% unless first %},{% endunless %} {% if site.data.authors contains au %}<strong>{{au}}</strong>{% else %}{{au}}{% endif %}{% assign first = false %}{% endfor %}.<br/>
+          {{pub.journal_full}} ({{pub.year}}).<br/>
+          <strong>PMID</strong>:<a href="http://www.ncbi.nlm.nih.gov/pubmed/{{pub.pmid}}" target="_blank">{{pub.pmid}}</a> <strong>doi</strong>:<a href="http://dx.doi.org/{{pub.doi}}" target="_blank">{{pub.doi}}</a>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
 </div>

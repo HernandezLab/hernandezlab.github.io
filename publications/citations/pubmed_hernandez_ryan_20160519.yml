@@ -1,15 +1,14 @@
-- abstract:
-  - Severe infection with respiratory syncytial virus (RSV) during infancy is strongly
-    associated with the development of asthma. To identify genetic variation that
-    contributes to asthma following severe RSV bronchiolitis during infancy, we sequenced
-    the coding exons of 131 asthma candidate genes in 182 European and African American
-    children with severe RSV bronchiolitis in infancy using anonymous pools for variant
-    discovery, and then directly genotyped a set of 190 nonsynonymous variants. Association
-    testing was performed for physician-diagnosed asthma before the 7th birthday (asthma)
-    using genotypes from 6,500 individuals from the Exome Sequencing Project (ESP)
-    as controls to gain statistical power. In addition, among patients with severe
-    RSV bronchiolitis during infancy, we examined genetic associations with asthma,
-    active asthma, persistent wheeze, and bronchial hyperreactivity (methacholine
+- abstract: Severe infection with respiratory syncytial virus (RSV) during infancy
+    is strongly associated with the development of asthma. To identify genetic variation
+    that contributes to asthma following severe RSV bronchiolitis during infancy,
+    we sequenced the coding exons of 131 asthma candidate genes in 182 European and
+    African American children with severe RSV bronchiolitis in infancy using anonymous
+    pools for variant discovery, and then directly genotyped a set of 190 nonsynonymous
+    variants. Association testing was performed for physician-diagnosed asthma before
+    the 7th birthday (asthma) using genotypes from 6,500 individuals from the Exome
+    Sequencing Project (ESP) as controls to gain statistical power. In addition, among
+    patients with severe RSV bronchiolitis during infancy, we examined genetic associations
+    with asthma, active asthma, persistent wheeze, and bronchial hyperreactivity (methacholine
     PC20) at age 6 years. We identified four rare nonsynonymous variants that were
     significantly associated with asthma following severe RSV bronchiolitis, including
     single variants in ADRB2, FLG and NCAM1 in European Americans (p = 4.6x10-4, 1.9x10-13
@@ -37,7 +36,7 @@
   - Randolph AG
   - Bacharier LB
   - Castro M
-  authors full:
+  authors_full:
   - Torgerson, Dara G
   - Giri, Tusar
   - Druley, Todd E
@@ -54,21 +53,18 @@
   - Bacharier, Leonard B
   - Castro, Mario
   date: 2015-11-20 00:00:00
-  journal:
-  - PLoS One
-  journal full:
-  - PloS one
-  pmid:
-  - '26587832'
+  doi: 10.1371/journal.pone.0142649
+  journal: PLoS One
+  journal_full: PloS One
+  pmid: '26587832'
   title: Pooled Sequencing of Candidate Genes Implicates Rare Variants in the Development
     of Asthma Following Severe RSV Bronchiolitis in Infancy.
   year: 2015
-- abstract:
-  - The 1000 Genomes Project set out to provide a comprehensive description of common
-    human genetic variation by applying whole-genome sequencing to a diverse set of
-    individuals from multiple populations. Here we report completion of the project,
-    having reconstructed the genomes of 2,504 individuals from 26 populations using
-    a combination of low-coverage whole-genome sequencing, deep exome sequencing,
+- abstract: The 1000 Genomes Project set out to provide a comprehensive description
+    of common human genetic variation by applying whole-genome sequencing to a diverse
+    set of individuals from multiple populations. Here we report completion of the
+    project, having reconstructed the genomes of 2,504 individuals from 26 populations
+    using a combination of low-coverage whole-genome sequencing, deep exome sequencing,
     and dense microarray genotyping. We characterized a broad spectrum of genetic
     variation, in total over 88 million variants (84.7 million single nucleotide polymorphisms
     (SNPs), 3.6 million short insertions/deletions (indels), and 60,000 structural
@@ -77,6 +73,7 @@
     the distribution of genetic variation across the global sample, and discuss the
     implications for common disease studies.
   authors:
+  - 1000 Genomes Project Consortium
   - Auton A
   - Brooks LD
   - Durbin RM
@@ -87,7 +84,8 @@
   - McCarthy S
   - McVean GA
   - Abecasis GR
-  authors full:
+  authors_full:
+  - 1000 Genomes Project Consortium
   - Auton, Adam
   - Brooks, Lisa D
   - Durbin, Richard M
@@ -99,17 +97,14 @@
   - McVean, Gil A
   - Abecasis, Goncalo R
   date: 2015-10-01 00:00:00
-  journal:
-  - Nature
-  journal full:
-  - Nature
-  pmid:
-  - '26432245'
+  doi: 10.1038/nature15393
+  journal: Nature
+  journal_full: Nature
+  pmid: '26432245'
   title: A global reference for human genetic variation.
   year: 2015
-- abstract:
-  - 'BACKGROUND: IgE is a key mediator of allergic inflammation, and its levels are
-    frequently increased in patients with allergic disorders. OBJECTIVE: We sought
+- abstract: 'BACKGROUND: IgE is a key mediator of allergic inflammation, and its levels
+    are frequently increased in patients with allergic disorders. OBJECTIVE: We sought
     to identify genetic variants associated with IgE levels in Latinos. METHODS: We
     performed a genome-wide association study and admixture mapping of total IgE levels
     in 3334 Latinos from the Genes-environments & Admixture in Latino Americans (GALA
@@ -183,7 +178,7 @@
   - Williams LK
   - Torgerson DG
   - Burchard EG
-  authors full:
+  authors_full:
   - Pino-Yanes, Maria
   - Gignoux, Christopher R
   - Galanter, Joshua M
@@ -235,17 +230,14 @@
   - Torgerson, Dara G
   - Burchard, Esteban G
   date: 2015-06-01 00:00:00
-  journal:
-  - J Allergy Clin Immunol
-  journal full:
-  - The Journal of allergy and clinical immunology
-  pmid:
-  - '25488688'
+  doi: 10.1016/j.jaci.2014.10.033
+  journal: J Allergy Clin Immunol
+  journal_full: The Journal of Allergy and Clinical Immunology
+  pmid: '25488688'
   title: Genome-wide association study and admixture mapping reveal new loci associated
     with total IgE levels in Latinos.
   year: 2015
-- abstract:
-  - Ortholog detection (OD) is a lynchpin of most statistical methods in comparative
+- abstract: Ortholog detection (OD) is a lynchpin of most statistical methods in comparative
     genomics. This task involves accurately identifying genes across species that
     descend from a common ancestral sequence. OD methods comprise a wide variety of
     approaches, each with their own benefits and costs under a variety of evolutionary
@@ -267,24 +259,21 @@
   authors:
   - Maher MC
   - Hernandez RD
-  authors full:
+  authors_full:
   - Maher, M Cyrus
   - Hernandez, Ryan D
   date: 2015-04-01 00:00:00
-  journal:
-  - G3 (Bethesda)
-  journal full:
-  - G3 (Bethesda, Md.)
-  pmid:
-  - '25711833'
+  doi: 10.1534/g3.115.017095
+  journal: G3 (Bethesda)
+  journal_full: G3 (Bethesda, Md.)
+  pmid: '25711833'
   title: 'Rock, paper, scissors: harnessing complementarity in ortholog detection
     methods improves comparative genomic inference.'
   year: 2015
-- abstract:
-  - Background. Establishing health-related causal relationships is a central pursuit
-    in biomedical research. Yet, the interdependent non-linearity of biological systems
-    renders causal dynamics laborious and at times impractical to disentangle. This
-    pursuit is further impeded by the dearth of time series that are sufficiently
+- abstract: Background. Establishing health-related causal relationships is a central
+    pursuit in biomedical research. Yet, the interdependent non-linearity of biological
+    systems renders causal dynamics laborious and at times impractical to disentangle.
+    This pursuit is further impeded by the dearth of time series that are sufficiently
     long to observe and understand recurrent patterns of flux. However, as data generation
     costs plummet and technologies like wearable devices democratize data collection,
     we anticipate a coming surge in the availability of biomedically-relevant time
@@ -314,32 +303,29 @@
   authors:
   - Maher MC
   - Hernandez RD
-  authors full:
+  authors_full:
   - Maher, M Cyrus
   - Hernandez, Ryan D
   date: 2015-03-05 00:00:00
-  journal:
-  - PeerJ
-  journal full:
-  - PeerJ
-  pmid:
-  - '25780776'
+  doi: 10.7717/peerj.824
+  journal: PeerJ
+  journal_full: PeerJ
+  pmid: '25780776'
   title: 'CauseMap: fast inference of causality from complex time series.'
   year: 2015
-- abstract:
-  - Mapping host-pathogen interactions has proven instrumental for understanding how
-    viruses manipulate host machinery and how numerous cellular processes are regulated.
-    DNA viruses such as herpesviruses have relatively large coding capacity and thus
-    can target an extensive network of cellular proteins. To identify the host proteins
-    hijacked by this pathogen, we systematically affinity tagged and purified all
-    89 proteins of Kaposi's sarcoma-associated herpesvirus (KSHV) from human cells.
-    Mass spectrometry of this material identified over 500 virus-host interactions.
-    KSHV causes AIDS-associated cancers, and its interaction network is enriched for
-    proteins linked to cancer and overlaps with proteins that are also targeted by
-    HIV-1. We found that the conserved KSHV protein ORF24 binds to RNA polymerase
-    II and brings it to viral late promoters by mimicking and replacing cellular TATA-box-binding
-    protein (TBP). This is required for herpesviral late gene expression, a complex
-    and poorly understood phase of the viral lifecycle.
+- abstract: Mapping host-pathogen interactions has proven instrumental for understanding
+    how viruses manipulate host machinery and how numerous cellular processes are
+    regulated. DNA viruses such as herpesviruses have relatively large coding capacity
+    and thus can target an extensive network of cellular proteins. To identify the
+    host proteins hijacked by this pathogen, we systematically affinity tagged and
+    purified all 89 proteins of Kaposi's sarcoma-associated herpesvirus (KSHV) from
+    human cells. Mass spectrometry of this material identified over 500 virus-host
+    interactions. KSHV causes AIDS-associated cancers, and its interaction network
+    is enriched for proteins linked to cancer and overlaps with proteins that are
+    also targeted by HIV-1. We found that the conserved KSHV protein ORF24 binds to
+    RNA polymerase II and brings it to viral late promoters by mimicking and replacing
+    cellular TATA-box-binding protein (TBP). This is required for herpesviral late
+    gene expression, a complex and poorly understood phase of the viral lifecycle.
   authors:
   - Davis ZH
   - Verschueren E
@@ -357,7 +343,7 @@
   - Hernandez RD
   - Krogan NJ
   - Glaunsinger BA
-  authors full:
+  authors_full:
   - Davis, Zoe H
   - Verschueren, Erik
   - Jang, Gwendolyn M
@@ -375,18 +361,15 @@
   - Krogan, Nevan J
   - Glaunsinger, Britt A
   date: 2015-01-22 00:00:00
-  journal:
-  - Mol Cell
-  journal full:
-  - Molecular cell
-  pmid:
-  - '25544563'
+  doi: 10.1016/j.molcel.2014.11.026
+  journal: Mol Cell
+  journal_full: Molecular Cell
+  pmid: '25544563'
   title: Global mapping of herpesvirus-host protein complexes reveals a transcription
     strategy for late genes.
   year: 2015
-- abstract:
-  - Demographic events and natural selection alter patterns of genetic variation within
-    populations and may play a substantial role in shaping the genetic architecture
+- abstract: Demographic events and natural selection alter patterns of genetic variation
+    within populations and may play a substantial role in shaping the genetic architecture
     of complex phenotypes and disease. However, the joint impact of these basic evolutionary
     forces is often ignored in the assessment of statistical tests of association.
     Here, we provide a simulation-based framework for generating DNA sequences that
@@ -410,23 +393,20 @@
   - Torres R
   - Witte JS
   - Hernandez RD
-  authors full:
+  authors_full:
   - Uricchio, Lawrence H
   - Torres, Raul
   - Witte, John S
   - Hernandez, Ryan D
   date: 2015-01-01 00:00:00
-  journal:
-  - Genet Epidemiol
-  journal full:
-  - Genetic epidemiology
-  pmid:
-  - '25417809'
+  doi: 10.1002/gepi.21866
+  journal: Genet Epidemiol
+  journal_full: Genetic Epidemiology
+  pmid: '25417809'
   title: Population genetic simulations of complex phenotypes with implications for
     rare variant association tests.
   year: 2015
-- abstract:
-  - Genetic simulation programs are used to model data under specified assumptions
+- abstract: Genetic simulation programs are used to model data under specified assumptions
     to facilitate the understanding and study of complex genetic systems. Standardized
     data sets generated using genetic simulation are essential for the development
     and application of novel analytical tools in genetic epidemiology studies. With
@@ -465,7 +445,7 @@
   - Witte JS
   - Gillanders EM
   - Feuer EJ
-  authors full:
+  authors_full:
   - Chen, Huann-Sheng
   - Hutter, Carolyn M
   - Mechanic, Leah E
@@ -486,21 +466,18 @@
   - Gillanders, Elizabeth M
   - Feuer, Eric J
   date: 2015-01-01 00:00:00
-  journal:
-  - Genet Epidemiol
-  journal full:
-  - Genetic epidemiology
-  pmid:
-  - '25371374'
+  doi: 10.1002/gepi.21870
+  journal: Genet Epidemiol
+  journal_full: Genetic Epidemiology
+  pmid: '25371374'
   title: Genetic simulation tools for post-genome wide association studies of complex
     diseases.
   year: 2015
-- abstract:
-  - Haplotype-based scans to detect natural selection are useful to identify recent
-    or ongoing positive selection in genomes. As both real and simulated genomic data
-    sets grow larger, spanning thousands of samples and millions of markers, there
-    is a need for a fast and efficient implementation of these scans for general use.
-    Here, we present selscan, an efficient multithreaded application that implements
+- abstract: Haplotype-based scans to detect natural selection are useful to identify
+    recent or ongoing positive selection in genomes. As both real and simulated genomic
+    data sets grow larger, spanning thousands of samples and millions of markers,
+    there is a need for a fast and efficient implementation of these scans for general
+    use. Here, we present selscan, an efficient multithreaded application that implements
     Extended Haplotype Homozygosity (EHH), Integrated Haplotype Score (iHS), and Cross-population
     EHH (XPEHH). selscan accepts phased genotypes in multiple formats, including TPED,
     and performs extremely well on both simulated and real data and over an order
@@ -512,33 +489,30 @@
   authors:
   - Szpiech ZA
   - Hernandez RD
-  authors full:
+  authors_full:
   - Szpiech, Zachary A
   - Hernandez, Ryan D
   date: 2014-10-01 00:00:00
-  journal:
-  - Mol Biol Evol
-  journal full:
-  - Molecular biology and evolution
-  pmid:
-  - '25015648'
+  doi: 10.1093/molbev/msu211
+  journal: Mol Biol Evol
+  journal_full: Molecular Biology and Evolution
+  pmid: '25015648'
   title: 'selscan: an efficient multithreaded program to perform EHH-based scans for
     positive selection.'
   year: 2014
-- abstract:
-  - 'BACKGROUND: Population differentiation has proved to be effective for identifying
-    loci under geographically localized positive selection, and has the potential
-    to identify loci subject to balancing selection. We have previously investigated
-    the pattern of genetic differentiation among human populations at 36.8 million
-    genomic variants to identify sites in the genome showing high frequency differences.
-    Here, we extend this dataset to include additional variants, survey sites with
-    low levels of differentiation, and evaluate the extent to which highly differentiated
-    sites are likely to result from selective or other processes. RESULTS: We demonstrate
-    that while sites with low differentiation represent sampling effects rather than
-    balancing selection, sites showing extremely high population differentiation are
-    enriched for positive selection events and that one half may be the result of
-    classic selective sweeps. Among these, we rediscover known examples, where we
-    actually identify the established functional SNP, and discover novel examples
+- abstract: 'BACKGROUND: Population differentiation has proved to be effective for
+    identifying loci under geographically localized positive selection, and has the
+    potential to identify loci subject to balancing selection. We have previously
+    investigated the pattern of genetic differentiation among human populations at
+    36.8 million genomic variants to identify sites in the genome showing high frequency
+    differences. Here, we extend this dataset to include additional variants, survey
+    sites with low levels of differentiation, and evaluate the extent to which highly
+    differentiated sites are likely to result from selective or other processes. RESULTS:
+    We demonstrate that while sites with low differentiation represent sampling effects
+    rather than balancing selection, sites showing extremely high population differentiation
+    are enriched for positive selection events and that one half may be the result
+    of classic selective sweeps. Among these, we rediscover known examples, where
+    we actually identify the established functional SNP, and discover novel examples
     including the genes ABCA12, CALD1 and ZNF804, which we speculate may be linked
     to adaptations in skin, calcium metabolism and defense, respectively. CONCLUSIONS:
     We identify known and many novel candidate regions for geographically restricted
@@ -553,6 +527,7 @@
   - Garrison E
   - Xue Y
   - Tyler-Smith C
+  - 1000 Genomes Project Consortium
   - Abecasis GR
   - Auton A
   - Brooks LD
@@ -562,7 +537,7 @@
   - Kang HM
   - Marth GT
   - McVean GA
-  authors full:
+  authors_full:
   - Colonna, Vincenza
   - Ayub, Qasim
   - Chen, Yuan
@@ -572,6 +547,7 @@
   - Garrison, Erik
   - Xue, Yali
   - Tyler-Smith, Chris
+  - 1000 Genomes Project Consortium
   - Abecasis, Goncalo R
   - Auton, Adam
   - Brooks, Lisa D
@@ -582,17 +558,14 @@
   - Marth, Gabor T
   - McVean, Gil A
   date: 2014-06-30 00:00:00
-  journal:
-  - Genome Biol
-  journal full:
-  - Genome biology
-  pmid:
-  - '24980144'
+  doi: 10.1186/gb-2014-15-6-r88
+  journal: Genome Biol
+  journal_full: Genome Biology
+  pmid: '24980144'
   title: Human genomic regions with exceptionally high levels of population differentiation
     identified from 911 whole-genome sequences.
   year: 2014
-- abstract:
-  - A major use of the 1000 Genomes Project (1000 GP) data is genotype imputation
+- abstract: A major use of the 1000 Genomes Project (1000 GP) data is genotype imputation
     in genome-wide association studies (GWAS). Here we develop a method to estimate
     haplotypes from low-coverage sequencing data that can take advantage of single-nucleotide
     polymorphism (SNP) microarray genotypes on the same samples. First the SNP array
@@ -607,22 +580,23 @@
   authors:
   - Delaneau O
   - Marchini J
-  authors full:
+  - 1000 Genomes Project Consortium
+  - 1000 Genomes Project Consortium
+  authors_full:
   - Delaneau, Olivier
   - Marchini, Jonathan
+  - 1000 Genomes Project Consortium
+  - 1000 Genomes Project Consortium
   date: 2014-06-13 00:00:00
-  journal:
-  - Nat Commun
-  journal full:
-  - Nature communications
-  pmid:
-  - '25653097'
+  doi: 10.1038/ncomms4934
+  journal: Nat Commun
+  journal_full: Nature Communications
+  pmid: '25653097'
   title: Integrating sequence and array data to create an improved 1000 Genomes Project
     haplotype reference panel.
   year: 2014
-- abstract:
-  - Evolutionary forces shape patterns of genetic diversity within populations and
-    contribute to phenotypic variation. In particular, recurrent positive selection
+- abstract: Evolutionary forces shape patterns of genetic diversity within populations
+    and contribute to phenotypic variation. In particular, recurrent positive selection
     has attracted significant interest in both theoretical and empirical studies.
     However, most existing theoretical models of recurrent positive selection cannot
     easily incorporate realistic confounding effects such as interference between
@@ -645,20 +619,17 @@
   authors:
   - Uricchio LH
   - Hernandez RD
-  authors full:
+  authors_full:
   - Uricchio, Lawrence H
   - Hernandez, Ryan D
   date: 2014-05-01 00:00:00
-  journal:
-  - Genetics
-  journal full:
-  - Genetics
-  pmid:
-  - '24561480'
+  doi: 10.1534/genetics.113.156935
+  journal: Genetics
+  journal_full: Genetics
+  pmid: '24561480'
   title: Robust forward simulations of recurrent hitchhiking.
   year: 2014
-- abstract:
-  - 'BACKGROUND: The primary rescue medication to treat acute asthma exacerbation
+- abstract: 'BACKGROUND: The primary rescue medication to treat acute asthma exacerbation
     is the short-acting beta(2)-adrenergic receptor agonist; however, there is variation
     in how well a patient responds to treatment. Although these differences might
     be due to environmental factors, there is mounting evidence for a genetic contribution
@@ -716,7 +687,7 @@
   - Hernandez RD
   - Giacomini KM
   - Burchard EG
-  authors full:
+  authors_full:
   - Drake, Katherine A
   - Torgerson, Dara G
   - Gignoux, Christopher R
@@ -750,26 +721,23 @@
   - Giacomini, Kathleen M
   - Burchard, Esteban G
   date: 2014-02-01 00:00:00
-  journal:
-  - J Allergy Clin Immunol
-  journal full:
-  - The Journal of allergy and clinical immunology
-  pmid:
-  - '23992748'
+  doi: 10.1016/j.jaci.2013.06.043
+  journal: J Allergy Clin Immunol
+  journal_full: The Journal of Allergy and Clinical Immunology
+  pmid: '23992748'
   title: A genome-wide association study of bronchodilator response in Latinos implicates
     rare variants.
   year: 2014
-- abstract:
-  - Proteins are not monolithic entities; rather, they can contain multiple domains
-    that mediate distinct interactions, and their functionality can be regulated through
-    post-translational modifications at multiple distinct sites. Traditionally, network
-    biology has ignored such properties of proteins and has instead examined either
-    the physical interactions of whole proteins or the consequences of removing entire
-    genes. In this Review, we discuss experimental and computational methods to increase
-    the resolution of protein-protein, genetic and drug-gene interaction studies to
-    the domain and residue levels. Such work will be crucial for using interaction
-    networks to connect sequence and structural information, and to understand the
-    biological consequences of disease-associated mutations, which will hopefully
+- abstract: Proteins are not monolithic entities; rather, they can contain multiple
+    domains that mediate distinct interactions, and their functionality can be regulated
+    through post-translational modifications at multiple distinct sites. Traditionally,
+    network biology has ignored such properties of proteins and has instead examined
+    either the physical interactions of whole proteins or the consequences of removing
+    entire genes. In this Review, we discuss experimental and computational methods
+    to increase the resolution of protein-protein, genetic and drug-gene interaction
+    studies to the domain and residue levels. Such work will be crucial for using
+    interaction networks to connect sequence and structural information, and to understand
+    the biological consequences of disease-associated mutations, which will hopefully
     lead to more effective therapeutic strategies.
   authors:
   - Ryan CJ
@@ -778,7 +746,7 @@
   - Sali A
   - Hernandez RD
   - Krogan NJ
-  authors full:
+  authors_full:
   - Ryan, Colm J
   - Cimermancic, Peter
   - Szpiech, Zachary A
@@ -786,17 +754,14 @@
   - Hernandez, Ryan D
   - Krogan, Nevan J
   date: 2013-12-01 00:00:00
-  journal:
-  - Nat Rev Genet
-  journal full:
-  - Nature reviews. Genetics
-  pmid:
-  - '24197012'
+  doi: 10.1038/nrg3574
+  journal: Nat Rev Genet
+  journal_full: Nature Reviews. Genetics
+  pmid: '24197012'
   title: 'High-resolution network biology: connecting sequence with function.'
   year: 2013
-- abstract:
-  - Interpreting variants, especially noncoding ones, in the increasing number of
-    personal genomes is challenging. We used patterns of polymorphisms in functionally
+- abstract: Interpreting variants, especially noncoding ones, in the increasing number
+    of personal genomes is challenging. We used patterns of polymorphisms in functionally
     annotated regions in 1092 humans to identify deleterious variants; then we experimentally
     validated candidates. We analyzed both coding and noncoding regions, with the
     former corroborating the latter. We found regions particularly sensitive to mutations
@@ -851,12 +816,13 @@
   - Wilson M
   - Xue Y
   - Yu F
+  - 1000 Genomes Project Consortium
   - Dermitzakis ET
   - Yu H
   - Rubin MA
   - Tyler-Smith C
   - Gerstein M
-  authors full:
+  authors_full:
   - Khurana, Ekta
   - Fu, Yao
   - Colonna, Vincenza
@@ -900,25 +866,23 @@
   - Wilson, Michael
   - Xue, Yali
   - Yu, Fuli
+  - 1000 Genomes Project Consortium
   - Dermitzakis, Emmanouil T
   - Yu, Haiyuan
   - Rubin, Mark A
   - Tyler-Smith, Chris
   - Gerstein, Mark
   date: 2013-10-04 00:00:00
-  journal:
-  - Science
-  journal full:
-  - Science (New York, N.Y.)
-  pmid:
-  - '24092746'
+  doi: 10.1126/science.1235587
+  journal: Science
+  journal_full: Science (New York, N.Y.)
+  pmid: '24092746'
   title: 'Integrative annotation of variants from 1092 humans: application to cancer
     genomics.'
   year: 2013
-- abstract:
-  - 'BACKGROUND: Regions of the genome that are under evolutionary constraint across
-    multiple species have previously been used to identify functional sequences in
-    the human genome. Furthermore, it is known that there is an inverse relationship
+- abstract: 'BACKGROUND: Regions of the genome that are under evolutionary constraint
+    across multiple species have previously been used to identify functional sequences
+    in the human genome. Furthermore, it is known that there is an inverse relationship
     between evolutionary constraint and the allele frequency of a mutation segregating
     in human populations, implying a direct relationship between interspecies divergence
     and fitness in humans. Here we utilise this relationship to test differences in
@@ -949,7 +913,7 @@
   - Grenier JC
   - Hernandez RD
   - Awadalla P
-  authors full:
+  authors_full:
   - Hodgkinson, Alan
   - Casals, Ferran
   - Idaghdour, Youssef
@@ -957,17 +921,14 @@
   - Hernandez, Ryan D
   - Awadalla, Philip
   date: 2013-07-23 00:00:00
-  journal:
-  - BMC Genomics
-  journal full:
-  - BMC genomics
-  pmid:
-  - '23875710'
+  doi: 10.1186/1471-2164-14-495
+  journal: BMC Genomics
+  journal_full: BMC Genomics
+  pmid: '23875710'
   title: Selective constraint, background selection, and mutation accumulation variability
     within and between human populations.
   year: 2013
-- abstract:
-  - Progressive HIV infection is characterized by dysregulation of the intestinal
+- abstract: Progressive HIV infection is characterized by dysregulation of the intestinal
     immune barrier, translocation of immunostimulatory microbial products, and chronic
     systemic inflammation that is thought to drive progression of disease to AIDS.
     Elements of this pathologic process persist despite viral suppression during highly
@@ -1005,7 +966,7 @@
   - Hunt PW
   - Lynch SV
   - McCune JM
-  authors full:
+  authors_full:
   - Vujkovic-Cvijin, Ivan
   - Dunham, Richard M
   - Iwai, Shoko
@@ -1021,38 +982,35 @@
   - Lynch, Susan V
   - McCune, Joseph M
   date: 2013-07-10 00:00:00
-  journal:
-  - Sci Transl Med
-  journal full:
-  - Science translational medicine
-  pmid:
-  - '23843452'
+  doi: 10.1126/scitranslmed.3006438
+  journal: Sci Transl Med
+  journal_full: Science Translational Medicine
+  pmid: '23843452'
   title: Dysbiosis of the gut microbiota is associated with HIV disease progression
     and tryptophan catabolism.
   year: 2013
-- abstract:
-  - 'OBJECTIVES: Identifying drivers of complex traits from the noisy signals of genetic
-    variation obtained from high-throughput genome sequencing technologies is a central
-    challenge faced by human geneticists today. We hypothesize that the variants involved
-    in complex diseases are likely to exhibit non-neutral evolutionary signatures.
-    Uncovering the evolutionary history of all variants is therefore of intrinsic
-    interest for complex disease research. However, doing so necessitates the simultaneous
-    elucidation of the targets of natural selection and population-specific demographic
-    history. METHODS: Here we characterize the action of natural selection operating
-    across complex disease categories, and use population genetic simulations to evaluate
-    the expected patterns of genetic variation in large samples. We focus on populations
-    that have experienced historical bottlenecks followed by explosive growth (consistent
-    with many human populations), and describe the differences between evolutionarily
-    deleterious mutations and those that are neutral. RESULTS: Genes associated with
-    several complex disease categories exhibit stronger signatures of purifying selection
-    than non-disease genes. In addition, loci identified through genome-wide association
-    studies of complex traits also exhibit signatures consistent with being in regions
-    recurrently targeted by purifying selection. Through simulations, we show that
-    population bottlenecks and rapid growth enable deleterious rare variants to persist
-    at low frequencies just as long as neutral variants, but low-frequency and common
-    variants tend to be much younger than neutral variants. This has resulted in a
-    large proportion of modern-day rare alleles that have a deleterious effect on
-    function and that potentially contribute to disease susceptibility. CONCLUSIONS:
+- abstract: 'OBJECTIVES: Identifying drivers of complex traits from the noisy signals
+    of genetic variation obtained from high-throughput genome sequencing technologies
+    is a central challenge faced by human geneticists today. We hypothesize that the
+    variants involved in complex diseases are likely to exhibit non-neutral evolutionary
+    signatures. Uncovering the evolutionary history of all variants is therefore of
+    intrinsic interest for complex disease research. However, doing so necessitates
+    the simultaneous elucidation of the targets of natural selection and population-specific
+    demographic history. METHODS: Here we characterize the action of natural selection
+    operating across complex disease categories, and use population genetic simulations
+    to evaluate the expected patterns of genetic variation in large samples. We focus
+    on populations that have experienced historical bottlenecks followed by explosive
+    growth (consistent with many human populations), and describe the differences
+    between evolutionarily deleterious mutations and those that are neutral. RESULTS:
+    Genes associated with several complex disease categories exhibit stronger signatures
+    of purifying selection than non-disease genes. In addition, loci identified through
+    genome-wide association studies of complex traits also exhibit signatures consistent
+    with being in regions recurrently targeted by purifying selection. Through simulations,
+    we show that population bottlenecks and rapid growth enable deleterious rare variants
+    to persist at low frequencies just as long as neutral variants, but low-frequency
+    and common variants tend to be much younger than neutral variants. This has resulted
+    in a large proportion of modern-day rare alleles that have a deleterious effect
+    on function and that potentially contribute to disease susceptibility. CONCLUSIONS:
     The key question for sequencing-based association studies of complex traits is
     how to distinguish between deleterious and benign genetic variation. We used population
     genetic simulations to uncover patterns of genetic variation that distinguish
@@ -1063,26 +1021,23 @@
   - Uricchio LH
   - Torgerson DG
   - Hernandez RD
-  authors full:
+  authors_full:
   - Maher, M Cyrus
   - Uricchio, Lawrence H
   - Torgerson, Dara G
   - Hernandez, Ryan D
   date: 2013-04-11 00:00:00
-  journal:
-  - Hum Hered
-  journal full:
-  - Human heredity
-  pmid:
-  - '23594490'
+  doi: 000346826
+  journal: Hum Hered
+  journal_full: Human Heredity
+  pmid: '23594490'
   title: Population genetics of rare variants and complex diseases.
   year: 2013
-- abstract:
-  - By characterizing the geographic and functional spectrum of human genetic variation,
-    the 1000 Genomes Project aims to build a resource to help to understand the genetic
-    contribution to disease. Here we describe the genomes of 1,092 individuals from
-    14 populations, constructed using a combination of low-coverage whole-genome and
-    exome sequencing. By developing methods to integrate information across several
+- abstract: By characterizing the geographic and functional spectrum of human genetic
+    variation, the 1000 Genomes Project aims to build a resource to help to understand
+    the genetic contribution to disease. Here we describe the genomes of 1,092 individuals
+    from 14 populations, constructed using a combination of low-coverage whole-genome
+    and exome sequencing. By developing methods to integrate information across several
     algorithms and diverse data sources, we provide a validated haplotype map of 38
     million single nucleotide polymorphisms, 1.4 million short insertions and deletions,
     and more than 14,000 larger deletions. We show that individuals from different
@@ -1097,6 +1052,7 @@
     of 1% in related populations, enables analysis of common and low-frequency variants
     in individuals from diverse, including admixed, populations.
   authors:
+  - 1000 Genomes Project Consortium
   - Abecasis GR
   - Auton A
   - Brooks LD
@@ -1106,7 +1062,8 @@
   - Kang HM
   - Marth GT
   - McVean GA
-  authors full:
+  authors_full:
+  - 1000 Genomes Project Consortium
   - Abecasis, Goncalo R
   - Auton, Adam
   - Brooks, Lisa D
@@ -1117,36 +1074,33 @@
   - Marth, Gabor T
   - McVean, Gil A
   date: 2012-11-01 00:00:00
-  journal:
-  - Nature
-  journal full:
-  - Nature
-  pmid:
-  - '23128226'
+  doi: 10.1038/nature11632
+  journal: Nature
+  journal_full: Nature
+  pmid: '23128226'
   title: An integrated map of genetic variation from 1,092 human genomes.
   year: 2012
-- abstract:
-  - 'BACKGROUND: Polymorphisms in more than 100 genes have been associated with asthma
-    susceptibility, yet much of the heritability remains to be explained. Asthma disproportionately
-    affects different racial and ethnic groups in the United States, suggesting that
-    admixture mapping is a useful strategy to identify novel asthma-associated loci.
-    OBJECTIVE: We sought to identify novel asthma-associated loci in Latino populations
-    using case-control admixture mapping. METHODS: We performed genome-wide admixture
-    mapping by comparing levels of local Native American, European, and African ancestry
-    between children with asthma and nonasthmatic control subjects in Puerto Rican
-    and Mexican populations. Within candidate peaks, we performed allelic tests of
-    association, controlling for differences in local ancestry. RESULTS: Between the
-    2 populations, we identified a total of 62 admixture mapping peaks at a P value
-    of less than 10(-3) that were significantly enriched for previously identified
-    asthma-associated genes (P= .0051). One of the peaks was statistically significant
-    based on 100 permutations in the Mexican sample (6q15); however, it was not significant
-    in Puerto Rican subjects. Another peak was identified at nominal significance
-    in both populations (8q12); however, the association was observed with different
-    ancestries. CONCLUSION: Case-control admixture mapping is a promising strategy
-    for identifying novel asthma-associated loci in Latino populations and implicates
-    genetic variation at 6q15 and 8q12 regions with asthma susceptibility. This approach
-    might be useful for identifying regions that contribute to both shared and population-specific
-    differences in asthma susceptibility.'
+- abstract: 'BACKGROUND: Polymorphisms in more than 100 genes have been associated
+    with asthma susceptibility, yet much of the heritability remains to be explained.
+    Asthma disproportionately affects different racial and ethnic groups in the United
+    States, suggesting that admixture mapping is a useful strategy to identify novel
+    asthma-associated loci. OBJECTIVE: We sought to identify novel asthma-associated
+    loci in Latino populations using case-control admixture mapping. METHODS: We performed
+    genome-wide admixture mapping by comparing levels of local Native American, European,
+    and African ancestry between children with asthma and nonasthmatic control subjects
+    in Puerto Rican and Mexican populations. Within candidate peaks, we performed
+    allelic tests of association, controlling for differences in local ancestry. RESULTS:
+    Between the 2 populations, we identified a total of 62 admixture mapping peaks
+    at a P value of less than 10(-3) that were significantly enriched for previously
+    identified asthma-associated genes (P= .0051). One of the peaks was statistically
+    significant based on 100 permutations in the Mexican sample (6q15); however, it
+    was not significant in Puerto Rican subjects. Another peak was identified at nominal
+    significance in both populations (8q12); however, the association was observed
+    with different ancestries. CONCLUSION: Case-control admixture mapping is a promising
+    strategy for identifying novel asthma-associated loci in Latino populations and
+    implicates genetic variation at 6q15 and 8q12 regions with asthma susceptibility.
+    This approach might be useful for identifying regions that contribute to both
+    shared and population-specific differences in asthma susceptibility.'
   authors:
   - Torgerson DG
   - Gignoux CR
@@ -1163,7 +1117,7 @@
   - Rodriguez-Cintron W
   - Hernandez RD
   - Burchard EG
-  authors full:
+  authors_full:
   - Torgerson, Dara G
   - Gignoux, Christopher R
   - Galanter, Joshua M
@@ -1180,23 +1134,20 @@
   - Hernandez, Ryan D
   - Burchard, Esteban G
   date: 2012-07-01 00:00:00
-  journal:
-  - J Allergy Clin Immunol
-  journal full:
-  - The Journal of allergy and clinical immunology
-  pmid:
-  - '22502797'
+  doi: 10.1016/j.jaci.2012.02.040
+  journal: J Allergy Clin Immunol
+  journal_full: The Journal of Allergy and Clinical Immunology
+  pmid: '22502797'
   title: Case-control admixture mapping in Latino populations enriches for known asthma-associated
     genes.
   year: 2012
-- abstract:
-  - The 1000 Genomes Project was launched as one of the largest distributed data collection
-    and analysis projects ever undertaken in biology. In addition to the primary scientific
-    goals of creating both a deep catalog of human genetic variation and extensive
-    methods to accurately discover and characterize variation using new sequencing
-    technologies, the project makes all of its data publicly available. Members of
-    the project data coordination center have developed and deployed several tools
-    to enable widespread data access.
+- abstract: The 1000 Genomes Project was launched as one of the largest distributed
+    data collection and analysis projects ever undertaken in biology. In addition
+    to the primary scientific goals of creating both a deep catalog of human genetic
+    variation and extensive methods to accurately discover and characterize variation
+    using new sequencing technologies, the project makes all of its data publicly
+    available. Members of the project data coordination center have developed and
+    deployed several tools to enable widespread data access.
   authors:
   - Clarke L
   - Zheng-Bradley X
@@ -1210,7 +1161,8 @@
   - Shumway M
   - Sherry S
   - Flicek P
-  authors full:
+  - 1000 Genomes Project Consortium
+  authors_full:
   - Clarke, Laura
   - Zheng-Bradley, Xiangqun
   - Smith, Richard
@@ -1223,17 +1175,15 @@
   - Shumway, Martin
   - Sherry, Stephen
   - Flicek, Paul
+  - 1000 Genomes Project Consortium
   date: 2012-05-01 00:00:00
-  journal:
-  - Nat Methods
-  journal full:
-  - Nature methods
-  pmid:
-  - '22543379'
+  doi: 10.1038/nmeth.1974
+  journal: Nat Methods
+  journal_full: Nature Methods
+  pmid: '22543379'
   title: 'The 1000 Genomes Project: data management and community access.'
   year: 2012
-- abstract:
-  - To study the evolution of recombination rates in apes, we developed methodology
+- abstract: To study the evolution of recombination rates in apes, we developed methodology
     to construct a fine-scale genetic map from high-throughput sequence data from
     10 Western chimpanzees, Pan troglodytes verus. Compared to the human genetic map,
     broad-scale recombination rates tend to be conserved, but with exceptions, particularly
@@ -1269,7 +1219,7 @@
   - Donnelly P
   - Przeworski M
   - McVean G
-  authors full:
+  authors_full:
   - Auton, Adam
   - Fledel-Alon, Adi
   - Pfeifer, Susanne
@@ -1294,18 +1244,15 @@
   - Przeworski, Molly
   - McVean, Gil
   date: 2012-04-13 00:00:00
-  journal:
-  - Science
-  journal full:
-  - Science (New York, N.Y.)
-  pmid:
-  - '22422862'
+  doi: 10.1126/science.1216872
+  journal: Science
+  journal_full: Science (New York, N.Y.)
+  pmid: '22422862'
   title: A fine-scale chimpanzee genetic map from population sequencing.
   year: 2012
-- abstract:
-  - Common variation in over 100 genes has been implicated in the risk of developing
-    asthma, but the contribution of rare variants to asthma susceptibility remains
-    largely unexplored. We selected nine genes that showed the strongest signatures
+- abstract: Common variation in over 100 genes has been implicated in the risk of
+    developing asthma, but the contribution of rare variants to asthma susceptibility
+    remains largely unexplored. We selected nine genes that showed the strongest signatures
     of weak purifying selection from among 53 candidate asthma-associated genes, and
     we sequenced the coding exons and flanking noncoding regions in 450 asthmatic
     cases and 515 nonasthmatic controls. We observed an overall excess of p values
@@ -1338,7 +1285,7 @@
   - Martinez FD
   - Nicolae DL
   - Ober C
-  authors full:
+  authors_full:
   - Torgerson, Dara G
   - Capurso, Daniel
   - Mathias, Rasika A
@@ -1354,33 +1301,30 @@
   - Nicolae, Dan L
   - Ober, Carole
   date: 2012-02-10 00:00:00
-  journal:
-  - Am J Hum Genet
-  journal full:
-  - American journal of human genetics
-  pmid:
-  - '22325360'
+  doi: 10.1016/j.ajhg.2012.01.008
+  journal: Am J Hum Genet
+  journal_full: American Journal of Human Genetics
+  pmid: '22325360'
   title: Resequencing candidate genes implicates rare variants in asthma susceptibility.
   year: 2012
-- abstract:
-  - Human immunodeficiency virus (HIV) has a small genome and therefore relies heavily
-    on the host cellular machinery to replicate. Identifying which host proteins and
-    complexes come into physical contact with the viral proteins is crucial for a
-    comprehensive understanding of how HIV rewires the host's cellular machinery during
-    the course of infection. Here we report the use of affinity tagging and purification
-    mass spectrometry to determine systematically the physical interactions of all
-    18 HIV-1 proteins and polyproteins with host proteins in two different human cell
-    lines (HEK293 and Jurkat). Using a quantitative scoring system that we call MiST,
-    we identified with high confidence 497 HIV-human protein-protein interactions
-    involving 435 individual human proteins, with approximately 40% of the interactions
-    being identified in both cell types. We found that the host proteins hijacked
-    by HIV, especially those found interacting in both cell types, are highly conserved
-    across primates. We uncovered a number of host complexes targeted by viral proteins,
-    including the finding that HIV protease cleaves eIF3d, a subunit of eukaryotic
-    translation initiation factor 3. This host protein is one of eleven identified
-    in this analysis that act to inhibit HIV replication. This data set facilitates
-    a more comprehensive and detailed understanding of how the host machinery is manipulated
-    during the course of HIV infection.
+- abstract: Human immunodeficiency virus (HIV) has a small genome and therefore relies
+    heavily on the host cellular machinery to replicate. Identifying which host proteins
+    and complexes come into physical contact with the viral proteins is crucial for
+    a comprehensive understanding of how HIV rewires the host's cellular machinery
+    during the course of infection. Here we report the use of affinity tagging and
+    purification mass spectrometry to determine systematically the physical interactions
+    of all 18 HIV-1 proteins and polyproteins with host proteins in two different
+    human cell lines (HEK293 and Jurkat). Using a quantitative scoring system that
+    we call MiST, we identified with high confidence 497 HIV-human protein-protein
+    interactions involving 435 individual human proteins, with approximately 40% of
+    the interactions being identified in both cell types. We found that the host proteins
+    hijacked by HIV, especially those found interacting in both cell types, are highly
+    conserved across primates. We uncovered a number of host complexes targeted by
+    viral proteins, including the finding that HIV protease cleaves eIF3d, a subunit
+    of eukaryotic translation initiation factor 3. This host protein is one of eleven
+    identified in this analysis that act to inhibit HIV replication. This data set
+    facilitates a more comprehensive and detailed understanding of how the host machinery
+    is manipulated during the course of HIV infection.
   authors:
   - Jager S
   - Cimermancic P
@@ -1419,7 +1363,7 @@
   - Sali A
   - Frankel AD
   - Krogan NJ
-  authors full:
+  authors_full:
   - Jager, Stefanie
   - Cimermancic, Peter
   - Gulbahce, Natali
@@ -1458,22 +1402,19 @@
   - Frankel, Alan D
   - Krogan, Nevan J
   date: 2012-01-19 00:00:00
-  journal:
-  - Nature
-  journal full:
-  - Nature
-  pmid:
-  - '22190034'
+  doi: 10.1038/nature10719
+  journal: Nature
+  journal_full: Nature
+  pmid: '22190034'
   title: Global landscape of HIV-human protein complexes.
   year: 2012
-- abstract:
-  - Through an analysis of polymorphism within and divergence between species, we
-    can hope to learn about the distribution of selective effects of mutations in
-    the genome, changes in the fitness landscape that occur over time, and the location
-    of sites involved in key adaptations that distinguish modern-day species. We introduce
-    a novel method for the analysis of variation in selection pressures within and
-    between species, spatially along the genome and temporally between lineages. We
-    model codon evolution explicitly using a joint population genetics-phylogenetics
+- abstract: Through an analysis of polymorphism within and divergence between species,
+    we can hope to learn about the distribution of selective effects of mutations
+    in the genome, changes in the fitness landscape that occur over time, and the
+    location of sites involved in key adaptations that distinguish modern-day species.
+    We introduce a novel method for the analysis of variation in selection pressures
+    within and between species, spatially along the genome and temporally between
+    lineages. We model codon evolution explicitly using a joint population genetics-phylogenetics
     approach that we developed for the construction of multiallelic models with mutation,
     selection, and drift. Our approach has the advantage of performing direct inference
     on coding sequences, inferring ancestral states probabilistically, utilizing allele
@@ -1488,39 +1429,36 @@
   - Hernandez RD
   - Andolfatto P
   - Przeworski M
-  authors full:
+  authors_full:
   - Wilson, Daniel J
   - Hernandez, Ryan D
   - Andolfatto, Peter
   - Przeworski, Molly
   date: 2011-12-01 00:00:00
-  journal:
-  - PLoS Genet
-  journal full:
-  - PLoS genetics
-  pmid:
-  - '22144911'
+  doi: 10.1371/journal.pgen.1002395
+  journal: PLoS Genet
+  journal_full: PLoS Genetics
+  pmid: '22144911'
   title: A population genetics-phylogenetics approach to inferring natural selection
     in coding sequences.
   year: 2011
-- abstract:
-  - 'BACKGROUND: Rare coding variants constitute an important class of human genetic
-    variation, but are underrepresented in current databases that are based on small
-    population samples. Recent studies show that variants altering amino acid sequence
-    and protein function are enriched at low variant allele frequency, 2 to 5%, but
-    because of insufficient sample size it is not clear if the same trend holds for
-    rare variants below 1% allele frequency. RESULTS: The 1000 Genomes Exon Pilot
-    Project has collected deep-coverage exon-capture data in roughly 1,000 human genes,
-    for nearly 700 samples. Although medical whole-exome projects are currently afoot,
-    this is still the deepest reported sampling of a large number of human genes with
-    next-generation technologies. According to the goals of the 1000 Genomes Project,
-    we created effective informatics pipelines to process and analyze the data, and
-    discovered 12,758 exonic SNPs, 70% of them novel, and 74% below 1% allele frequency
-    in the seven population samples we examined. Our analysis confirms that coding
-    variants below 1% allele frequency show increased population-specificity and are
-    enriched for functional variants. CONCLUSIONS: This study represents a large step
-    toward detecting and interpreting low frequency coding variation, clearly lays
-    out technical steps for effective analysis of DNA capture data, and articulates
+- abstract: 'BACKGROUND: Rare coding variants constitute an important class of human
+    genetic variation, but are underrepresented in current databases that are based
+    on small population samples. Recent studies show that variants altering amino
+    acid sequence and protein function are enriched at low variant allele frequency,
+    2 to 5%, but because of insufficient sample size it is not clear if the same trend
+    holds for rare variants below 1% allele frequency. RESULTS: The 1000 Genomes Exon
+    Pilot Project has collected deep-coverage exon-capture data in roughly 1,000 human
+    genes, for nearly 700 samples. Although medical whole-exome projects are currently
+    afoot, this is still the deepest reported sampling of a large number of human
+    genes with next-generation technologies. According to the goals of the 1000 Genomes
+    Project, we created effective informatics pipelines to process and analyze the
+    data, and discovered 12,758 exonic SNPs, 70% of them novel, and 74% below 1% allele
+    frequency in the seven population samples we examined. Our analysis confirms that
+    coding variants below 1% allele frequency show increased population-specificity
+    and are enriched for functional variants. CONCLUSIONS: This study represents a
+    large step toward detecting and interpreting low frequency coding variation, clearly
+    lays out technical steps for effective analysis of DNA capture data, and articulates
     functional and population properties of this important class of genetic variation.'
   authors:
   - Marth GT
@@ -1559,7 +1497,8 @@
   - Mardis E
   - Palotie A
   - Gibbs R
-  authors full:
+  - 1000 Genomes Project
+  authors_full:
   - Marth, Gabor T
   - Yu, Fuli
   - Indap, Amit R
@@ -1596,30 +1535,28 @@
   - Mardis, Elaine
   - Palotie, Aarno
   - Gibbs, Richard
+  - 1000 Genomes Project
   date: 2011-09-14 00:00:00
-  journal:
-  - Genome Biol
-  journal full:
-  - Genome biology
-  pmid:
-  - '21917140'
+  doi: 10.1186/gb-2011-12-9-r84
+  journal: Genome Biol
+  journal_full: Genome Biology
+  pmid: '21917140'
   title: The functional spectrum of low-frequency coding variation.
   year: 2011
-- abstract:
-  - Asthma is a common disease with a complex risk architecture including both genetic
-    and environmental factors. We performed a meta-analysis of North American genome-wide
-    association studies of asthma in 5,416 individuals with asthma (cases) including
-    individuals of European American, African American or African Caribbean, and Latino
-    ancestry, with replication in an additional 12,649 individuals from the same ethnic
-    groups. We identified five susceptibility loci. Four were at previously reported
-    loci on 17q21, near IL1RL1, TSLP and IL33, but we report for the first time, to
-    our knowledge, that these loci are associated with asthma risk in three ethnic
-    groups. In addition, we identified a new asthma susceptibility locus at PYHIN1,
-    with the association being specific to individuals of African descent (P = 3.9
-    x 10(-9)). These results suggest that some asthma susceptibility loci are robust
-    to differences in ancestry when sufficiently large samples sizes are investigated,
-    and that ancestry-specific associations also contribute to the complex genetic
-    architecture of asthma.
+- abstract: Asthma is a common disease with a complex risk architecture including
+    both genetic and environmental factors. We performed a meta-analysis of North
+    American genome-wide association studies of asthma in 5,416 individuals with asthma
+    (cases) including individuals of European American, African American or African
+    Caribbean, and Latino ancestry, with replication in an additional 12,649 individuals
+    from the same ethnic groups. We identified five susceptibility loci. Four were
+    at previously reported loci on 17q21, near IL1RL1, TSLP and IL33, but we report
+    for the first time, to our knowledge, that these loci are associated with asthma
+    risk in three ethnic groups. In addition, we identified a new asthma susceptibility
+    locus at PYHIN1, with the association being specific to individuals of African
+    descent (P = 3.9 x 10(-9)). These results suggest that some asthma susceptibility
+    loci are robust to differences in ancestry when sufficiently large samples sizes
+    are investigated, and that ancestry-specific associations also contribute to the
+    complex genetic architecture of asthma.
   authors:
   - Torgerson DG
   - Ampleford EJ
@@ -1688,15 +1625,25 @@
   - Raby BA
   - Meyers DA
   - London SJ
+  - Mexico City Childhood Asthma Study (MCAAS)
   - Gilliland FD
+  - Children's Health Study (CHS) and HARBORS study
   - Burchard EG
+  - Genetics of Asthma in Latino Americans (GALA) Study, Study of Genes-Environment
+    and Admixture in Latino Americans (GALA2) and Study of African Americans, Asthma,
+    Genes & Environments (SAGE)
   - Martinez FD
+  - Childhood Asthma Research and Education (CARE) Network
   - Weiss ST
+  - Childhood Asthma Management Program (CAMP)
   - Williams LK
+  - Study of Asthma Phenotypes and Pharmacogenomic Interactions by Race-Ethnicity
+    (SAPPHIRE)
   - Barnes KC
+  - Genetic Research on Asthma in African Diaspora (GRAAD) Study
   - Ober C
   - Nicolae DL
-  authors full:
+  authors_full:
   - Torgerson, Dara G
   - Ampleford, Elizabeth J
   - Chiu, Grace Y
@@ -1764,34 +1711,41 @@
   - Raby, Benjamin A
   - Meyers, Deborah A
   - London, Stephanie J
+  - Mexico City Childhood Asthma Study (MCAAS)
   - Gilliland, Frank D
+  - Children's Health Study (CHS) and HARBORS study
   - Burchard, Esteban G
+  - Genetics of Asthma in Latino Americans (GALA) Study, Study of Genes-Environment
+    and Admixture in Latino Americans (GALA2) and Study of African Americans, Asthma,
+    Genes & Environments (SAGE)
   - Martinez, Fernando D
+  - Childhood Asthma Research and Education (CARE) Network
   - Weiss, Scott T
+  - Childhood Asthma Management Program (CAMP)
   - Williams, L Keoki
+  - Study of Asthma Phenotypes and Pharmacogenomic Interactions by Race-Ethnicity
+    (SAPPHIRE)
   - Barnes, Kathleen C
+  - Genetic Research on Asthma in African Diaspora (GRAAD) Study
   - Ober, Carole
   - Nicolae, Dan L
   date: 2011-09-01 00:00:00
-  journal:
-  - Nat Genet
-  journal full:
-  - Nature genetics
-  pmid:
-  - '21804549'
+  doi: 10.1038/ng.888
+  journal: Nat Genet
+  journal_full: Nature Genetics
+  pmid: '21804549'
   title: Meta-analysis of genome-wide association studies of asthma in ethnically
     diverse North American populations.
   year: 2011
-- abstract:
-  - 'SUMMARY: The variant call format (VCF) is a generic format for storing DNA polymorphism
-    data such as SNPs, insertions, deletions and structural variants, together with
-    rich annotations. VCF is usually stored in a compressed manner and can be indexed
-    for fast data retrieval of variants from a range of positions on the reference
-    genome. The format was developed for the 1000 Genomes Project, and has also been
-    adopted by other projects such as UK10K, dbSNP and the NHLBI Exome Project. VCFtools
-    is a software suite that implements various utilities for processing VCF files,
-    including validation, merging, comparing and also provides a general Perl API.
-    AVAILABILITY: http://vcftools.sourceforge.net'
+- abstract: 'SUMMARY: The variant call format (VCF) is a generic format for storing
+    DNA polymorphism data such as SNPs, insertions, deletions and structural variants,
+    together with rich annotations. VCF is usually stored in a compressed manner and
+    can be indexed for fast data retrieval of variants from a range of positions on
+    the reference genome. The format was developed for the 1000 Genomes Project, and
+    has also been adopted by other projects such as UK10K, dbSNP and the NHLBI Exome
+    Project. VCFtools is a software suite that implements various utilities for processing
+    VCF files, including validation, merging, comparing and also provides a general
+    Perl API. AVAILABILITY: http://vcftools.sourceforge.net'
   authors:
   - Danecek P
   - Auton A
@@ -1805,7 +1759,8 @@
   - Sherry ST
   - McVean G
   - Durbin R
-  authors full:
+  - 1000 Genomes Project Analysis Group
+  authors_full:
   - Danecek, Petr
   - Auton, Adam
   - Abecasis, Goncalo
@@ -1818,19 +1773,17 @@
   - Sherry, Stephen T
   - McVean, Gilean
   - Durbin, Richard
+  - 1000 Genomes Project Analysis Group
   date: 2011-08-01 00:00:00
-  journal:
-  - Bioinformatics
-  journal full:
-  - Bioinformatics (Oxford, England)
-  pmid:
-  - '21653522'
+  doi: 10.1093/bioinformatics/btr330
+  journal: Bioinformatics
+  journal_full: Bioinformatics (Oxford, England)
+  pmid: '21653522'
   title: The variant call format and VCFtools.
   year: 2011
-- abstract:
-  - High-throughput sequencing technology enables population-level surveys of human
-    genomic variation. Here, we examine the joint allele frequency distributions across
-    continental human populations and present an approach for combining complementary
+- abstract: High-throughput sequencing technology enables population-level surveys
+    of human genomic variation. Here, we examine the joint allele frequency distributions
+    across continental human populations and present an approach for combining complementary
     aspects of whole-genome, low-coverage data and targeted high-coverage data. We
     apply this approach to data generated by the pilot phase of the Thousand Genomes
     Project, including whole-genome 2-4x coverage data for 179 samples from HapMap
@@ -1859,8 +1812,9 @@
   - Clark AG
   - Yu F
   - Gibbs RA
+  - 1000 Genomes Project
   - Bustamante CD
-  authors full:
+  authors_full:
   - Gravel, Simon
   - Henn, Brenna M
   - Gutenkunst, Ryan N
@@ -1869,22 +1823,21 @@
   - Clark, Andrew G
   - Yu, Fuli
   - Gibbs, Richard A
+  - 1000 Genomes Project
   - Bustamante, Carlos D
   date: 2011-07-19 00:00:00
-  journal:
-  - Proc Natl Acad Sci U S A
-  journal full:
-  - Proceedings of the National Academy of Sciences of the United States of America
-  pmid:
-  - '21730125'
+  doi: 10.1073/pnas.1019276108
+  journal: Proc Natl Acad Sci U S A
+  journal_full: Proceedings of the National Academy of Sciences of the United States
+    of America
+  pmid: '21730125'
   title: Demographic history and rare allele sharing among human populations.
   year: 2011
-- abstract:
-  - J.B.S. Haldane proposed in 1947 that the male germline may be more mutagenic than
-    the female germline. Diverse studies have supported Haldane's contention of a
-    higher average mutation rate in the male germline in a variety of mammals, including
-    humans. Here we present, to our knowledge, the first direct comparative analysis
-    of male and female germline mutation rates from the complete genome sequences
+- abstract: J.B.S. Haldane proposed in 1947 that the male germline may be more mutagenic
+    than the female germline. Diverse studies have supported Haldane's contention
+    of a higher average mutation rate in the male germline in a variety of mammals,
+    including humans. Here we present, to our knowledge, the first direct comparative
+    analysis of male and female germline mutation rates from the complete genome sequences
     of two parent-offspring trios. Through extensive validation, we identified 49
     and 35 germline de novo mutations (DNMs) in two trio offspring, as well as 1,586
     non-germline DNMs arising either somatically or in the cell lines from which the
@@ -1910,7 +1863,8 @@
   - Stone EA
   - Hurles ME
   - Awadalla P
-  authors full:
+  - 1000 Genomes Project
+  authors_full:
   - Conrad, Donald F
   - Keebler, Jonathan E M
   - DePristo, Mark A
@@ -1928,34 +1882,32 @@
   - Stone, Eric A
   - Hurles, Matthew E
   - Awadalla, Philip
+  - 1000 Genomes Project
   date: 2011-07-01 00:00:00
-  journal:
-  - Nat Genet
-  journal full:
-  - Nature genetics
-  pmid:
-  - '21666693'
+  doi: 10.1038/ng.862
+  journal: Nat Genet
+  journal_full: Nature Genetics
+  pmid: '21666693'
   title: Variation in genome-wide mutation rates within and between human families.
   year: 2011
-- abstract:
-  - Oryza sativa or Asian cultivated rice is one of the major cereal grass species
-    domesticated for human food use during the Neolithic. Domestication of this species
-    from the wild grass Oryza rufipogon was accompanied by changes in several traits,
-    including seed shattering, percent seed set, tillering, grain weight, and flowering
-    time. Quantitative trait locus (QTL) mapping has identified three genomic regions
-    in chromosome 3 that appear to be associated with these traits. We would like
-    to study whether these regions show signatures of selection and whether the same
-    genetic basis underlies the domestication of different rice varieties. Fragments
-    of 88 genes spanning these three genomic regions were sequenced from multiple
-    accessions of two major varietal groups in O. sativa--indica and tropical japonica--as
-    well as the ancestral wild rice species O. rufipogon. In tropical japonica, the
-    levels of nucleotide variation in these three QTL regions are significantly lower
-    compared to genome-wide levels, and coalescent simulations based on a complex
-    demographic model of rice domestication indicate that these patterns are consistent
-    with selection. In contrast, there is no significant reduction in nucleotide diversity
-    in the homologous regions in indica rice. These results suggest that there are
-    differences in the genetic and selective basis for domestication between these
-    two Asian rice varietal groups.
+- abstract: Oryza sativa or Asian cultivated rice is one of the major cereal grass
+    species domesticated for human food use during the Neolithic. Domestication of
+    this species from the wild grass Oryza rufipogon was accompanied by changes in
+    several traits, including seed shattering, percent seed set, tillering, grain
+    weight, and flowering time. Quantitative trait locus (QTL) mapping has identified
+    three genomic regions in chromosome 3 that appear to be associated with these
+    traits. We would like to study whether these regions show signatures of selection
+    and whether the same genetic basis underlies the domestication of different rice
+    varieties. Fragments of 88 genes spanning these three genomic regions were sequenced
+    from multiple accessions of two major varietal groups in O. sativa--indica and
+    tropical japonica--as well as the ancestral wild rice species O. rufipogon. In
+    tropical japonica, the levels of nucleotide variation in these three QTL regions
+    are significantly lower compared to genome-wide levels, and coalescent simulations
+    based on a complex demographic model of rice domestication indicate that these
+    patterns are consistent with selection. In contrast, there is no significant reduction
+    in nucleotide diversity in the homologous regions in indica rice. These results
+    suggest that there are differences in the genetic and selective basis for domestication
+    between these two Asian rice varietal groups.
   authors:
   - Xie X
   - Molina J
@@ -1964,7 +1916,7 @@
   - Boyko AR
   - Bustamante CD
   - Purugganan MD
-  authors full:
+  authors_full:
   - Xie, Xianfa
   - Molina, Jeanmaire
   - Hernandez, Ryan
@@ -1973,20 +1925,17 @@
   - Bustamante, Carlos D
   - Purugganan, Michael D
   date: 2011-06-06 00:00:00
-  journal:
-  - PLoS One
-  journal full:
-  - PloS one
-  pmid:
-  - '21674010'
+  doi: 10.1371/journal.pone.0020670
+  journal: PLoS One
+  journal_full: PloS One
+  pmid: '21674010'
   title: Levels and patterns of nucleotide variation in domestication QTL regions
     on rice chromosome 3 suggest lineage-specific selection.
   year: 2011
-- abstract:
-  - Efforts to identify the genetic basis of human adaptations from polymorphism data
-    have sought footprints of "classic selective sweeps" (in which a beneficial mutation
-    arises and rapidly fixes in the population).Yet it remains unknown whether this
-    form of natural selection was common in our evolution. We examined the evidence
+- abstract: Efforts to identify the genetic basis of human adaptations from polymorphism
+    data have sought footprints of "classic selective sweeps" (in which a beneficial
+    mutation arises and rapidly fixes in the population).Yet it remains unknown whether
+    this form of natural selection was common in our evolution. We examined the evidence
     for classic sweeps in resequencing data from 179 human genomes. As expected under
     a recurrent-sweep model, we found that diversity levels decrease near exons and
     conserved noncoding regions. In contrast to expectation, however, the trough in
@@ -2003,30 +1952,29 @@
   - Melton SC
   - Auton A
   - McVean G
+  - 1000 Genomes Project
   - Sella G
   - Przeworski M
-  authors full:
+  authors_full:
   - Hernandez, Ryan D
   - Kelley, Joanna L
   - Elyashiv, Eyal
   - Melton, S Cord
   - Auton, Adam
   - McVean, Gilean
+  - 1000 Genomes Project
   - Sella, Guy
   - Przeworski, Molly
   date: 2011-02-18 00:00:00
-  journal:
-  - Science
-  journal full:
-  - Science (New York, N.Y.)
-  pmid:
-  - '21330547'
+  doi: 10.1126/science.1198878
+  journal: Science
+  journal_full: Science (New York, N.Y.)
+  pmid: '21330547'
   title: Classic selective sweeps were rare in recent human evolution.
   year: 2011
-- abstract:
-  - Genomic structural variants (SVs) are abundant in humans, differing from other
-    forms of variation in extent, origin and functional impact. Despite progress in
-    SV characterization, the nucleotide resolution architecture of most SVs remains
+- abstract: Genomic structural variants (SVs) are abundant in humans, differing from
+    other forms of variation in extent, origin and functional impact. Despite progress
+    in SV characterization, the nucleotide resolution architecture of most SVs remains
     unknown. We constructed a map of unbalanced SVs (that is, copy number variants)
     based on whole genome DNA sequencing data from 185 human genomes, integrating
     evidence from complementary SV discovery approaches with extensive experimental
@@ -2096,7 +2044,8 @@
   - Lee C
   - McCarroll SA
   - Korbel JO
-  authors full:
+  - 1000 Genomes Project
+  authors_full:
   - Mills, Ryan E
   - Walter, Klaudia
   - Stewart, Chip
@@ -2154,27 +2103,25 @@
   - Lee, Charles
   - McCarroll, Steven A
   - Korbel, Jan O
+  - 1000 Genomes Project
   date: 2011-02-03 00:00:00
-  journal:
-  - Nature
-  journal full:
-  - Nature
-  pmid:
-  - '21293372'
+  doi: 10.1038/nature09708
+  journal: Nature
+  journal_full: Nature
+  pmid: '21293372'
   title: Mapping copy number variation by population-scale genome sequencing.
   year: 2011
-- abstract:
-  - Copy number variants affect both disease and normal phenotypic variation, but
-    those lying within heavily duplicated, highly identical sequence have been difficult
-    to assay. By analyzing short-read mapping depth for 159 human genomes, we demonstrated
-    accurate estimation of absolute copy number for duplications as small as 1.9 kilobase
-    pairs, ranging from 0 to 48 copies. We identified 4.1 million "singly unique nucleotide"
-    positions informative in distinguishing specific copies and used them to genotype
-    the copy and content of specific paralogs within highly duplicated gene families.
-    These data identify human-specific expansions in genes associated with brain development,
-    reveal extensive population genetic diversity, and detect signatures consistent
-    with gene conversion in the human species. Our approach makes ~1000 genes accessible
-    to genetic studies of disease association.
+- abstract: Copy number variants affect both disease and normal phenotypic variation,
+    but those lying within heavily duplicated, highly identical sequence have been
+    difficult to assay. By analyzing short-read mapping depth for 159 human genomes,
+    we demonstrated accurate estimation of absolute copy number for duplications as
+    small as 1.9 kilobase pairs, ranging from 0 to 48 copies. We identified 4.1 million
+    "singly unique nucleotide" positions informative in distinguishing specific copies
+    and used them to genotype the copy and content of specific paralogs within highly
+    duplicated gene families. These data identify human-specific expansions in genes
+    associated with brain development, reveal extensive population genetic diversity,
+    and detect signatures consistent with gene conversion in the human species. Our
+    approach makes ~1000 genes accessible to genetic studies of disease association.
   authors:
   - Sudmant PH
   - Kitzman JO
@@ -2185,8 +2132,9 @@
   - Sampas N
   - Bruhn L
   - Shendure J
+  - 1000 Genomes Project
   - Eichler EE
-  authors full:
+  authors_full:
   - Sudmant, Peter H
   - Kitzman, Jacob O
   - Antonacci, Francesca
@@ -2196,19 +2144,17 @@
   - Sampas, Nick
   - Bruhn, Laurakay
   - Shendure, Jay
+  - 1000 Genomes Project
   - Eichler, Evan E
   date: 2010-10-29 00:00:00
-  journal:
-  - Science
-  journal full:
-  - Science (New York, N.Y.)
-  pmid:
-  - '21030649'
+  doi: 10.1126/science.1197005
+  journal: Science
+  journal_full: Science (New York, N.Y.)
+  pmid: '21030649'
   title: Diversity of human copy number variation and multicopy genes.
   year: 2010
-- abstract:
-  - 'The 1000 Genomes Project aims to provide a deep characterization of human genome
-    sequence variation as a foundation for investigating the relationship between
+- abstract: 'The 1000 Genomes Project aims to provide a deep characterization of human
+    genome sequence variation as a foundation for investigating the relationship between
     genotype and phenotype. Here we present results of the pilot phase of the project,
     designed to develop and compare different strategies for genome-wide sequencing
     with high-throughput platforms. We undertook three projects: low-coverage whole-genome
@@ -2230,6 +2176,7 @@
     at linked sites. These methods and public data will support the next phase of
     human genetic research.'
   authors:
+  - 1000 Genomes Project Consortium
   - Abecasis GR
   - Altshuler D
   - Auton A
@@ -2238,7 +2185,8 @@
   - Gibbs RA
   - Hurles ME
   - McVean GA
-  authors full:
+  authors_full:
+  - 1000 Genomes Project Consortium
   - Abecasis, Goncalo R
   - Altshuler, David
   - Auton, Adam
@@ -2248,20 +2196,17 @@
   - Hurles, Matt E
   - McVean, Gil A
   date: 2010-10-28 00:00:00
-  journal:
-  - Nature
-  journal full:
-  - Nature
-  pmid:
-  - '20981092'
+  doi: 10.1038/nature09534
+  journal: Nature
+  journal_full: Nature
+  pmid: '20981092'
   title: A map of human genome variation from population-scale sequencing.
   year: 2010
-- abstract:
-  - DNA replication errors that escape polymerase proofreading and mismatch repair
-    (MMR) can lead to base substitution and frameshift mutations. Such mutations can
-    disrupt gene function, reduce fitness, and promote diseases such as cancer and
-    are also the raw material of molecular evolution. To analyze with limited bias
-    genomic features associated with DNA polymerase errors, we performed a genome-wide
+- abstract: DNA replication errors that escape polymerase proofreading and mismatch
+    repair (MMR) can lead to base substitution and frameshift mutations. Such mutations
+    can disrupt gene function, reduce fitness, and promote diseases such as cancer
+    and are also the raw material of molecular evolution. To analyze with limited
+    bias genomic features associated with DNA polymerase errors, we performed a genome-wide
     analysis of mutations that accumulate in MMR-deficient diploid lines of Saccharomyces
     cerevisiae. These lines were derived from a common ancestor and were grown for
     160 generations, with bottlenecks reducing the population to one cell every 20
@@ -2293,7 +2238,7 @@
   - Gu Z
   - Bustamante CD
   - Alani E
-  authors full:
+  authors_full:
   - Zanders, Sarah
   - Ma, Xin
   - Roychoudhury, Arindam
@@ -2304,17 +2249,14 @@
   - Bustamante, Carlos D
   - Alani, Eric
   date: 2010-10-01 00:00:00
-  journal:
-  - Genetics
-  journal full:
-  - Genetics
-  pmid:
-  - '20660644'
+  doi: 10.1534/genetics.110.120105
+  journal: Genetics
+  journal_full: Genetics
+  pmid: '20660644'
   title: Detection of heterozygous mutations in the genome of mismatch repair defective
     diploid yeast using a Bayesian approach.
   year: 2010
-- abstract:
-  - 'Demographic models built from genetic data play important roles in illuminating
+- abstract: 'Demographic models built from genetic data play important roles in illuminating
     prehistorical events and serving as null models in genome scans for selection.
     We introduce an inference method based on the joint frequency spectrum of genetic
     variants within and between populations. For candidate models we numerically compute
@@ -2345,27 +2287,24 @@
   - Hernandez RD
   - Williamson SH
   - Bustamante CD
-  authors full:
+  authors_full:
   - Gutenkunst, Ryan N
   - Hernandez, Ryan D
   - Williamson, Scott H
   - Bustamante, Carlos D
   date: 2009-10-01 00:00:00
-  journal:
-  - PLoS Genet
-  journal full:
-  - PLoS genetics
-  pmid:
-  - '19851460'
+  doi: 10.1371/journal.pgen.1000695
+  journal: PLoS Genet
+  journal_full: PLoS Genetics
+  pmid: '19851460'
   title: Inferring the joint demographic history of multiple populations from multidimensional
     SNP frequency data.
   year: 2009
-- abstract:
-  - Analysis of polymorphism and divergence in the non-coding portion of the human
-    genome yields crucial information about factors driving the evolution of gene
-    regulation. Candidate cis-regulatory regions spanning more than 15,000 genes in
-    15 African Americans and 20 European Americans were re-sequenced and aligned to
-    the chimpanzee genome in order to identify potentially functional polymorphism
+- abstract: Analysis of polymorphism and divergence in the non-coding portion of the
+    human genome yields crucial information about factors driving the evolution of
+    gene regulation. Candidate cis-regulatory regions spanning more than 15,000 genes
+    in 15 African Americans and 20 European Americans were re-sequenced and aligned
+    to the chimpanzee genome in order to identify potentially functional polymorphism
     and to characterize and quantify departures from neutral evolution. Distortions
     of the site frequency spectra suggest a general pattern of selective constraint
     on conserved non-coding sites in the flanking regions of genes (CNCs). Moreover,
@@ -2392,7 +2331,7 @@
   - Adams MD
   - Bustamante CD
   - Clark AG
-  authors full:
+  authors_full:
   - Torgerson, Dara G
   - Boyko, Adam R
   - Hernandez, Ryan D
@@ -2405,28 +2344,26 @@
   - Bustamante, Carlos D
   - Clark, Andrew G
   date: 2009-08-01 00:00:00
-  journal:
-  - PLoS Genet
-  journal full:
-  - PLoS genetics
-  pmid:
-  - '19662163'
+  doi: 10.1371/journal.pgen.1000592
+  journal: PLoS Genet
+  journal_full: PLoS Genetics
+  pmid: '19662163'
   title: Evolutionary processes acting on candidate cis-regulatory regions in humans
     inferred from patterns of polymorphism and divergence.
   year: 2009
-- abstract:
-  - The imprints of domestication and breed development on the genomes of livestock
-    likely differ from those of companion animals. A deep draft sequence assembly
-    of shotgun reads from a single Hereford female and comparative sequences sampled
-    from six additional breeds were used to develop probes to interrogate 37,470 single-nucleotide
-    polymorphisms (SNPs) in 497 cattle from 19 geographically and biologically diverse
-    breeds. These data show that cattle have undergone a rapid recent decrease in
-    effective population size from a very large ancestral population, possibly due
-    to bottlenecks associated with domestication, selection, and breed formation.
-    Domestication and artificial selection appear to have left detectable signatures
-    of selection within the cattle genome, yet the current levels of diversity within
-    breeds are at least as great as exists within humans.
+- abstract: The imprints of domestication and breed development on the genomes of
+    livestock likely differ from those of companion animals. A deep draft sequence
+    assembly of shotgun reads from a single Hereford female and comparative sequences
+    sampled from six additional breeds were used to develop probes to interrogate
+    37,470 single-nucleotide polymorphisms (SNPs) in 497 cattle from 19 geographically
+    and biologically diverse breeds. These data show that cattle have undergone a
+    rapid recent decrease in effective population size from a very large ancestral
+    population, possibly due to bottlenecks associated with domestication, selection,
+    and breed formation. Domestication and artificial selection appear to have left
+    detectable signatures of selection within the cattle genome, yet the current levels
+    of diversity within breeds are at least as great as exists within humans.
   authors:
+  - Bovine HapMap Consortium
   - Gibbs RA
   - Taylor JF
   - Van Tassell CP
@@ -2518,7 +2455,8 @@
   - Lynn DJ
   - Panzitta F
   - Dodds KG
-  authors full:
+  authors_full:
+  - Bovine HapMap Consortium
   - Gibbs, Richard A
   - Taylor, Jeremy F
   - Van Tassell, Curtis P
@@ -2611,43 +2549,37 @@
   - Panzitta, Francesca
   - Dodds, Ken G
   date: 2009-04-24 00:00:00
-  journal:
-  - Science
-  journal full:
-  - Science (New York, N.Y.)
-  pmid:
-  - '19390050'
+  doi: 10.1126/science.1167936
+  journal: Science
+  journal_full: Science (New York, N.Y.)
+  pmid: '19390050'
   title: Genome-wide survey of SNP variation uncovers the genetic structure of cattle
     breeds.
   year: 2009
-- abstract:
-  - 'This article introduces a new forward population genetic simulation program that
-    can efficiently generate samples from populations with complex demographic histories
-    under various models of natural selection. The program (SFS_CODE) is highly flexible,
-    allowing the user to simulate realistic genomic regions with several loci evolving
-    according to a variety of mutation models (from simple to context-dependent),
-    and allows for insertions and deletions. Each locus can be annotated as either
-    coding or non-coding, sex-linked or autosomal, selected or neutral, and have an
-    arbitrary linkage structure (from completely linked to independent). AVAILABILITY:
-    The source code (written in the C programming language) is available at http://sfscode.sourceforge.net,
-    and a web server (http://cbsuapps.tc.cornell.edu/sfscode.aspx) allows the user
-    to perform simulations using the high-performance computing cluster hosted by
-    the Cornell University Computational Biology Service Unit.'
+- abstract: 'This article introduces a new forward population genetic simulation program
+    that can efficiently generate samples from populations with complex demographic
+    histories under various models of natural selection. The program (SFS_CODE) is
+    highly flexible, allowing the user to simulate realistic genomic regions with
+    several loci evolving according to a variety of mutation models (from simple to
+    context-dependent), and allows for insertions and deletions. Each locus can be
+    annotated as either coding or non-coding, sex-linked or autosomal, selected or
+    neutral, and have an arbitrary linkage structure (from completely linked to independent).
+    AVAILABILITY: The source code (written in the C programming language) is available
+    at http://sfscode.sourceforge.net, and a web server (http://cbsuapps.tc.cornell.edu/sfscode.aspx)
+    allows the user to perform simulations using the high-performance computing cluster
+    hosted by the Cornell University Computational Biology Service Unit.'
   authors:
   - Hernandez RD
-  authors full:
+  authors_full:
   - Hernandez, Ryan D
   date: 2008-12-01 00:00:00
-  journal:
-  - Bioinformatics
-  journal full:
-  - Bioinformatics (Oxford, England)
-  pmid:
-  - '18842601'
+  doi: 10.1093/bioinformatics/btn522
+  journal: Bioinformatics
+  journal_full: Bioinformatics (Oxford, England)
+  pmid: '18842601'
   title: A flexible forward simulator for populations subject to selection and demography.
   year: 2008
-- abstract:
-  - Quantifying the distribution of fitness effects among newly arising mutations
+- abstract: Quantifying the distribution of fitness effects among newly arising mutations
     in the human genome is key to resolving important debates in medical and evolutionary
     genetics. Here, we present a method for inferring this distribution using Single
     Nucleotide Polymorphism (SNP) data from a population with non-stationary demographic
@@ -2686,7 +2618,7 @@
   - Nielsen R
   - Clark AG
   - Bustamante CD
-  authors full:
+  authors_full:
   - Boyko, Adam R
   - Williamson, Scott H
   - Indap, Amit R
@@ -2702,17 +2634,14 @@
   - Clark, Andrew G
   - Bustamante, Carlos D
   date: 2008-05-01 00:00:00
-  journal:
-  - PLoS Genet
-  journal full:
-  - PLoS genetics
-  pmid:
-  - '18516229'
+  doi: 10.1371/journal.pgen.1000083
+  journal: PLoS Genet
+  journal_full: PLoS Genetics
+  pmid: '18516229'
   title: Assessing the evolutionary impact of amino acid mutations in the human genome.
   year: 2008
-- abstract:
-  - Quantifying the number of deleterious mutations per diploid human genome is of
-    crucial concern to both evolutionary and medical geneticists. Here we combine
+- abstract: Quantifying the number of deleterious mutations per diploid human genome
+    is of crucial concern to both evolutionary and medical geneticists. Here we combine
     genome-wide polymorphism data from PCR-based exon resequencing, comparative genomic
     data across mammalian species, and protein structure predictions to estimate the
     number of functionally consequential single-nucleotide polymorphisms (SNPs) carried
@@ -2745,7 +2674,7 @@
   - Nielsen R
   - Clark AG
   - Bustamante CD
-  authors full:
+  authors_full:
   - Lohmueller, Kirk E
   - Indap, Amit R
   - Schmidt, Steffen
@@ -2759,66 +2688,60 @@
   - Clark, Andrew G
   - Bustamante, Carlos D
   date: 2008-02-21 00:00:00
-  journal:
-  - Nature
-  journal full:
-  - Nature
-  pmid:
-  - '18288194'
+  doi: 10.1038/nature06611
+  journal: Nature
+  journal_full: Nature
+  pmid: '18288194'
   title: Proportionally more deleterious genetic variation in European than in African
     populations.
   year: 2008
-- abstract:
-  - Understanding the proximate and ultimate causes underlying the evolution of nucleotide
-    composition in mammalian genomes is of fundamental interest to the study of molecular
-    evolution. Comparative genomics studies have revealed that many more substitutions
-    occur from G and C nucleotides to A and T nucleotides than the reverse, suggesting
-    that mammalian genomes are not at equilibrium for base composition. Analysis of
-    human polymorphism data suggests that mutations that increase GC-content tend
-    to be at much higher frequencies than those that decrease or preserve GC-content
-    when the ancestral allele is inferred via parsimony using the chimpanzee genome.
-    These observations have been interpreted as evidence for a fixation bias in favor
-    of G and C alleles due to either positive natural selection or biased gene conversion.
-    Here, we test the robustness of this interpretation to violations of the parsimony
-    assumption using a data set of 21,488 noncoding single nucleotide polymorphisms
-    (SNPs) discovered by the National Institute of Environmental Health Sciences (NIEHS)
-    SNPs project via direct resequencing of n = 95 individuals. Applying standard
-    nonparametric and parametric population genetic approaches, we replicate the signatures
-    of a fixation bias in favor of G and C alleles when the ancestral base is assumed
-    to be the base found in the chimpanzee outgroup. However, upon taking into account
-    the probability of misidentifying the ancestral state of each SNP using a context-dependent
-    mutation model, the corrected distribution of SNP frequencies for GC-content increasing
-    SNPs are nearly indistinguishable from the patterns observed for other types of
-    mutations, suggesting that the signature of fixation bias is a spurious artifact
-    of the parsimony assumption.
+- abstract: Understanding the proximate and ultimate causes underlying the evolution
+    of nucleotide composition in mammalian genomes is of fundamental interest to the
+    study of molecular evolution. Comparative genomics studies have revealed that
+    many more substitutions occur from G and C nucleotides to A and T nucleotides
+    than the reverse, suggesting that mammalian genomes are not at equilibrium for
+    base composition. Analysis of human polymorphism data suggests that mutations
+    that increase GC-content tend to be at much higher frequencies than those that
+    decrease or preserve GC-content when the ancestral allele is inferred via parsimony
+    using the chimpanzee genome. These observations have been interpreted as evidence
+    for a fixation bias in favor of G and C alleles due to either positive natural
+    selection or biased gene conversion. Here, we test the robustness of this interpretation
+    to violations of the parsimony assumption using a data set of 21,488 noncoding
+    single nucleotide polymorphisms (SNPs) discovered by the National Institute of
+    Environmental Health Sciences (NIEHS) SNPs project via direct resequencing of
+    n = 95 individuals. Applying standard nonparametric and parametric population
+    genetic approaches, we replicate the signatures of a fixation bias in favor of
+    G and C alleles when the ancestral base is assumed to be the base found in the
+    chimpanzee outgroup. However, upon taking into account the probability of misidentifying
+    the ancestral state of each SNP using a context-dependent mutation model, the
+    corrected distribution of SNP frequencies for GC-content increasing SNPs are nearly
+    indistinguishable from the patterns observed for other types of mutations, suggesting
+    that the signature of fixation bias is a spurious artifact of the parsimony assumption.
   authors:
   - Hernandez RD
   - Williamson SH
   - Zhu L
   - Bustamante CD
-  authors full:
+  authors_full:
   - Hernandez, Ryan D
   - Williamson, Scott H
   - Zhu, Lan
   - Bustamante, Carlos D
   date: 2007-10-01 00:00:00
-  journal:
-  - Mol Biol Evol
-  journal full:
-  - Molecular biology and evolution
-  pmid:
-  - '17656634'
+  doi: 10.1093/molbev/msm149
+  journal: Mol Biol Evol
+  journal_full: Molecular Biology and Evolution
+  pmid: '17656634'
   title: Context-dependent mutation rates may cause spurious signatures of a fixation
     bias favoring higher GC-content in humans.
   year: 2007
-- abstract:
-  - Domesticated Asian rice (Oryza sativa) is one of the oldest domesticated crop
-    species in the world, having fed more people than any other plant in human history.
-    We report the patterns of DNA sequence variation in rice and its wild ancestor,
-    O. rufipogon, across 111 randomly chosen gene fragments, and use these to infer
-    the evolutionary dynamics that led to the origins of rice. There is a genome-wide
-    excess of high-frequency derived single nucleotide polymorphisms (SNPs) in O.
-    sativa varieties, a pattern that has not been reported for other crop species.
+- abstract: Domesticated Asian rice (Oryza sativa) is one of the oldest domesticated
+    crop species in the world, having fed more people than any other plant in human
+    history. We report the patterns of DNA sequence variation in rice and its wild
+    ancestor, O. rufipogon, across 111 randomly chosen gene fragments, and use these
+    to infer the evolutionary dynamics that led to the origins of rice. There is a
+    genome-wide excess of high-frequency derived single nucleotide polymorphisms (SNPs)
+    in O. sativa varieties, a pattern that has not been reported for other crop species.
     We developed several alternative models to explain contemporary patterns of polymorphisms
     in rice, including a (i) selectively neutral population bottleneck model, (ii)
     bottleneck plus migration model, (iii) multiple selective sweeps model, and (iv)
@@ -2845,7 +2768,7 @@
   - McCouch SR
   - Bustamante CD
   - Purugganan MD
-  authors full:
+  authors_full:
   - Caicedo, Ana L
   - Williamson, Scott H
   - Hernandez, Ryan D
@@ -2859,21 +2782,18 @@
   - Bustamante, Carlos D
   - Purugganan, Michael D
   date: 2007-09-01 00:00:00
-  journal:
-  - PLoS Genet
-  journal full:
-  - PLoS genetics
-  pmid:
-  - '17907810'
+  doi: 10.1371/journal.pgen.0030163
+  journal: PLoS Genet
+  journal_full: PLoS Genetics
+  pmid: '17907810'
   title: Genome-wide patterns of nucleotide polymorphism in domesticated rice.
   year: 2007
-- abstract:
-  - Population genetic analyses often use polymorphism data from one species, and
-    orthologous genomic sequences from closely related outgroup species. These outgroup
-    sequences are frequently used to identify ancestral alleles at segregating sites
-    and to compare the patterns of polymorphism and divergence. Inherent in such studies
-    is the assumption of parsimony, which posits that the ancestral state of each
-    single nucleotide polymorphism (SNP) is the allele that matches the orthologous
+- abstract: Population genetic analyses often use polymorphism data from one species,
+    and orthologous genomic sequences from closely related outgroup species. These
+    outgroup sequences are frequently used to identify ancestral alleles at segregating
+    sites and to compare the patterns of polymorphism and divergence. Inherent in
+    such studies is the assumption of parsimony, which posits that the ancestral state
+    of each single nucleotide polymorphism (SNP) is the allele that matches the orthologous
     site in the outgroup sequence, and that all nucleotide substitutions between species
     have been observed. This study tests the effect of violating the parsimony assumption
     when mutation rates vary across sites and over time. Using a context-dependent
@@ -2892,34 +2812,32 @@
   - Hernandez RD
   - Williamson SH
   - Bustamante CD
-  authors full:
+  authors_full:
   - Hernandez, Ryan D
   - Williamson, Scott H
   - Bustamante, Carlos D
   date: 2007-08-01 00:00:00
-  journal:
-  - Mol Biol Evol
-  journal full:
-  - Molecular biology and evolution
-  pmid:
-  - '17545186'
+  doi: 10.1093/molbev/msm108
+  journal: Mol Biol Evol
+  journal_full: Molecular Biology and Evolution
+  pmid: '17545186'
   title: Context dependence, ancestral misidentification, and spurious signatures
     of natural selection.
   year: 2007
-- abstract:
-  - The rhesus macaque (Macaca mulatta) is an abundant primate species that diverged
-    from the ancestors of Homo sapiens about 25 million years ago. Because they are
-    genetically and physiologically similar to humans, rhesus monkeys are the most
-    widely used nonhuman primate in basic and applied biomedical research. We determined
-    the genome sequence of an Indian-origin Macaca mulatta female and compared the
-    data with chimpanzees and humans to reveal the structure of ancestral primate
-    genomes and to identify evidence for positive selection and lineage-specific expansions
-    and contractions of gene families. A comparison of sequences from individual animals
-    was used to investigate their underlying genetic diversity. The complete description
-    of the macaque genome blueprint enhances the utility of this animal model for
-    biomedical research and improves our understanding of the basic biology of the
-    species.
+- abstract: The rhesus macaque (Macaca mulatta) is an abundant primate species that
+    diverged from the ancestors of Homo sapiens about 25 million years ago. Because
+    they are genetically and physiologically similar to humans, rhesus monkeys are
+    the most widely used nonhuman primate in basic and applied biomedical research.
+    We determined the genome sequence of an Indian-origin Macaca mulatta female and
+    compared the data with chimpanzees and humans to reveal the structure of ancestral
+    primate genomes and to identify evidence for positive selection and lineage-specific
+    expansions and contractions of gene families. A comparison of sequences from individual
+    animals was used to investigate their underlying genetic diversity. The complete
+    description of the macaque genome blueprint enhances the utility of this animal
+    model for biomedical research and improves our understanding of the basic biology
+    of the species.
   authors:
+  - Rhesus Macaque Genome Sequencing and Analysis Consortium
   - Gibbs RA
   - Rogers J
   - Katze MG
@@ -3096,7 +3014,8 @@
   - Kuhn RM
   - Smith KE
   - Zwieg AS
-  authors full:
+  authors_full:
+  - Rhesus Macaque Genome Sequencing and Analysis Consortium
   - Gibbs, Richard A
   - Rogers, Jeffrey
   - Katze, Michael G
@@ -3274,17 +3193,14 @@
   - Smith, Kayla E
   - Zwieg, Ann S
   date: 2007-04-13 00:00:00
-  journal:
-  - Science
-  journal full:
-  - Science (New York, N.Y.)
-  pmid:
-  - '17431167'
+  doi: 10.1126/science.1139247
+  journal: Science
+  journal_full: Science (New York, N.Y.)
+  pmid: '17431167'
   title: Evolutionary and biomedical insights from the rhesus macaque genome.
   year: 2007
-- abstract:
-  - To understand the demographic history of rhesus macaques (Macaca mulatta) and
-    document the extent of linkage disequilibrium (LD) in the genome, we partially
+- abstract: To understand the demographic history of rhesus macaques (Macaca mulatta)
+    and document the extent of linkage disequilibrium (LD) in the genome, we partially
     resequenced five Encyclopedia of DNA Elements regions in 9 Chinese and 38 captive-born
     Indian rhesus macaques. Population genetic analyses of the 1467 single-nucleotide
     polymorphisms discovered suggest that the two populations separated about 162,000
@@ -3308,7 +3224,7 @@
   - Gibbs R
   - Nielsen R
   - Bustamante CD
-  authors full:
+  authors_full:
   - Hernandez, Ryan D
   - Hubisz, Melissa J
   - Wheeler, David A
@@ -3324,20 +3240,17 @@
   - Nielsen, Rasmus
   - Bustamante, Carlos D
   date: 2007-04-13 00:00:00
-  journal:
-  - Science
-  journal full:
-  - Science (New York, N.Y.)
-  pmid:
-  - '17431170'
+  doi: 10.1126/science.1140462
+  journal: Science
+  journal_full: Science (New York, N.Y.)
+  pmid: '17431170'
   title: Demographic histories and patterns of linkage disequilibrium in Chinese and
     Indian rhesus macaques.
   year: 2007
-- abstract:
-  - Comparisons of DNA polymorphism within species to divergence between species enables
-    the discovery of molecular adaptation in evolutionarily constrained genes as well
-    as the differentiation of weak from strong purifying selection. The extent to
-    which weak negative and positive darwinian selection have driven the molecular
+- abstract: Comparisons of DNA polymorphism within species to divergence between species
+    enables the discovery of molecular adaptation in evolutionarily constrained genes
+    as well as the differentiation of weak from strong purifying selection. The extent
+    to which weak negative and positive darwinian selection have driven the molecular
     evolution of different species varies greatly, with some species, such as Drosophila
     melanogaster, showing strong evidence of pervasive positive selection, and others,
     such as the selfing weed Arabidopsis thaliana, showing an excess of deleterious
@@ -3370,7 +3283,7 @@
   - Adams MD
   - Cargill M
   - Clark AG
-  authors full:
+  authors_full:
   - Bustamante, Carlos D
   - Fledel-Alon, Adi
   - Williamson, Scott
@@ -3386,16 +3299,13 @@
   - Cargill, Michele
   - Clark, Andrew G
   date: 2005-10-20 00:00:00
-  journal:
-  - Nature
-  journal full:
-  - Nature
-  pmid:
-  - '16237444'
+  doi: 10.1038/nature04240
+  journal: Nature
+  journal_full: Nature
+  pmid: '16237444'
   title: Natural selection on protein-coding genes in the human genome.
   year: 2005
-- abstract:
-  - Natural selection and demographic forces can have similar effects on patterns
+- abstract: Natural selection and demographic forces can have similar effects on patterns
     of DNA polymorphism. Therefore, to infer selection from samples of DNA sequences,
     one must simultaneously account for demographic effects. Here we take a model-based
     approach to this problem by developing predictions for patterns of polymorphism
@@ -3418,7 +3328,7 @@
   - Zhu L
   - Nielsen R
   - Bustamante CD
-  authors full:
+  authors_full:
   - Williamson, Scott H
   - Hernandez, Ryan
   - Fledel-Alon, Adi
@@ -3426,12 +3336,11 @@
   - Nielsen, Rasmus
   - Bustamante, Carlos D
   date: 2005-05-31 00:00:00
-  journal:
-  - Proc Natl Acad Sci U S A
-  journal full:
-  - Proceedings of the National Academy of Sciences of the United States of America
-  pmid:
-  - '15905331'
+  doi: 10.1073/pnas.0502300102
+  journal: Proc Natl Acad Sci U S A
+  journal_full: Proceedings of the National Academy of Sciences of the United States
+    of America
+  pmid: '15905331'
   title: Simultaneous inference of selection and population growth from patterns of
     variation in the human genome.
   year: 2005
