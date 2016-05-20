@@ -8,7 +8,7 @@
   <link href="/reference/ucsf_identity_web_banner_templates-1.4/banners.css" 
     rel="stylesheet" type="text/css">
   
-  <title>Hernandez Lab - UCSF</title>
+  <title>Hernandez Lab - {{page.group | capitalize}} - UCSF</title>
 </head>
 
 <body>
@@ -42,12 +42,7 @@
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
             {% for link in site.data.navlinks %}
-              {% if link.id == page.group %}
-                <li class="active"><a href="{{link.link}}" alt="{{link.name}}">{{link.name}}</a></li>
-              {% else %}
-                <li><a href="{{link.link}}" alt="{{link.name}}">{{link.name}}</a></li>
-              {% endif %}
-            {% endfor %}
+              {% if link.id == page.group %}<li class="active"><a href="{{link.link}}" alt="{{link.name}}">{{link.name}}</a></li>{% else %}<li><a href="{{link.link}}" alt="{{link.name}}">{{link.name}}</a></li>{% endif %}{% endfor %}
         </ul>
         
       </div>
