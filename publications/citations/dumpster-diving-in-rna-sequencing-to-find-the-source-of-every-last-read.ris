@@ -1,0 +1,28 @@
+TY  - JOUR
+AU  - Mangul, Serghei
+AU  - Yang, Harry Taegyun
+AU  - Strauli, Nicolas
+AU  - Gruhl, Franziska
+AU  - Daley, Timothy
+AU  - Christenson, Stephanie
+AU  - Wesolowska Andersen, Agata
+AU  - Spreafico, Roberto
+AU  - Rios, Cydney
+AU  - Eng, Celeste
+AU  - Smith, Andrew D.
+AU  - Hernandez, Ryan D.
+AU  - Ophoff, Roel A.
+AU  - Santana, Jose Rodriguez
+AU  - Woodruff, Prescott G.
+AU  - Burchard, Esteban
+AU  - Seibold, Max A.
+AU  - Shifman, Sagiv
+AU  - Eskin, Eleazar
+AU  - Zaitlen, Noah
+T1  - Dumpster diving in RNA-sequencing to find the source of every last read
+Y1  - 2016/05/13
+JF  - bioRxiv
+M3  - 10.1101/053041
+UR  - http://biorxiv.org/content/early/2016/05/13/053041.abstract
+N2  - High throughput RNA sequencing technologies have provided invaluable research opportunities across distinct scientific domains by producing quantitative readouts of the transcriptional activity of both entire cellular populations and single cells. The majority of RNA-Seq analyses begin by mapping each experimentally produced sequence (i.e., read) to a set of annotated reference sequences for the organism of interest. For both biological and technical reasons, a significant fraction of reads remains unmapped. In this work we develop a read origin protocol (ROP) aimed at discovering the source of all reads, originated from complex RNA molecules, recombinant antibodies and microbial communities. Our approach can account for 98.8% of all reads across poly(A) and ribo-depletion protocols. Furthermore, using ROP we show that immune profiles of asthmatic individuals are significantly different from the control individuals with decreased average per sample T-cell/B-cell receptor diversity and that immune diversity is inversely correlated with microbial load. This demonstrates the potential of ROP to exploit unmapped reads to better understand the functional mechanisms underlying the connection between immune system, microbiome, human gene expression, and disease etiology. The ROP pipeline is freely available at https://sergheimangul.wordpress.com/rop/
+ER  - 
