@@ -11,6 +11,7 @@ group: news
   <div class="col-sm-6 col-sm-pull-6">
     {% for pt in site.posts %}
       <h2>{{ pt.title }}</h2>
+      {{ pt.url }}
       <p>by {{ pt.author }}</p>
       <p>{{ pt.date | date: "%B %-d, %Y" }}</p>
       {{ pt.content }}
