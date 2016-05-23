@@ -11,3 +11,9 @@ defaults:
     values:
       layout: "post"
       permalink: news/:title
+exclude: 
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - publications/citations/
