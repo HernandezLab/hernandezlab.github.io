@@ -10,8 +10,8 @@ group: news
   </div>
   <div class="col-sm-6 col-sm-pull-6">
     {% for pt in site.posts %}
-      <h2>{{ pt.title }}</h2>
-      {{ pt.url }}
+      <h2><a href="{{ pt.url }}">{{ pt.title }}</a></h2>
+      
       <p>by {{ pt.author }}</p>
       <p>{{ pt.date | date: "%B %-d, %Y" }}</p>
       {{ pt.content }}
