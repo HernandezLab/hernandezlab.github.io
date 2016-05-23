@@ -1,5 +1,4 @@
 ---
-layout: default
 group: news
 title: "Hello World!"
 author: "Kevin Hartman"
