@@ -1,0 +1,41 @@
+TY  - Preprint
+T1  - Comparing Evolutionary Rates Using An Exact Test for 2x2 Tables with Continuous Cell Entries
+AU  - Thompson, A. Morgan 
+AU  - Maher, M. Cyrus
+AU  - Uricchio, Lawrence H. 
+AU  - Szpiech, Zachary A. 
+AU  - Hernandez, Ryan D.
+JF  - ArXiv e-prints
+VL  - 1404
+Y1  - 2014/4/1
+M3  - arXiv:1404.2992
+KW  - Quantitative Biology - Populations and Evolution
+UR  - http://adsabs.harvard.edu/abs/2014arXiv1404.2992T
+N2  - Assessing the statistical significance of an observed 2x2 contingency 
+      table can easily be accomplished using Fisher's exact test (FET). 
+      However, if the cell entries are continuous or represent values inferred 
+      from a continuous parametric model, then FET cannot be applied. Such 
+      tables arise frequently in areas of biostatistical research including 
+      population genetics and evolutionary genomics, where cell entries are 
+      estimated by computational methods and result in cell entries drawn from 
+      the non-negative real line R+. Simply rounding cell entries to conform 
+      to the assumptions of FET is an ill-suited approach that we show creates 
+      problems related to both type-I and type-II errors. Pearson's chi^2 test 
+      for independence, while technically applicable, is not often effective 
+      for these tables, as the test has several limiting assumptions that make 
+      application of this method inadvisable in many common instances 
+      (particularly with small cell entries). Here we develop a novel method 
+      for tables with continuous entries, which we term continuous Fisher's 
+      Exact Test (cFET). Through simulations, we show that cFET has a 
+      close-to-uniform distribution of p-values under the null hypothesis of 
+      independence, and more power when applied to tables where the null 
+      hypothesis is false (compared to FET applied to rounded cell entries). 
+      We apply cFET to an example from comparative genomics to confirm an 
+      overall increased evolutionary rate among primates compared to rodents, 
+      and identify several genes that show particularly elevated evolutionary 
+      rates in primates. Some of these genes exhibit signatures of continued 
+      positive selection along the human lineage since our divergence with 
+      chimpanzee 5-7 million years ago, as well as ongoing selection in modern 
+      humans.
+C1  - eprint: arXiv:1404.2992
+ER  -

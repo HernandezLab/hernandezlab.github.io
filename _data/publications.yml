@@ -1,3 +1,68 @@
+- abstract: High throughput RNA sequencing technologies have provided invaluable research
+    opportunities across distinct scientific domains by producing quantitative readouts
+    of the transcriptional activity of both entire cellular populations and single
+    cells. The majority of RNA-Seq analyses begin by mapping each experimentally produced
+    sequence (i.e., read) to a set of annotated reference sequences for the organism
+    of interest. For both biological and technical reasons, a significant fraction
+    of reads remains unmapped. In this work we develop a read origin protocol (ROP)
+    aimed at discovering the source of all reads, originated from complex RNA molecules,
+    recombinant antibodies and microbial communities. Our approach can account for
+    98.8% of all reads across poly(A) and ribo-depletion protocols. Furthermore, using
+    ROP we show that immune profiles of asthmatic individuals are significantly different
+    from the control individuals with decreased average per sample T-cell/B-cell receptor
+    diversity and that immune diversity is inversely correlated with microbial load.
+    This demonstrates the potential of ROP to exploit unmapped reads to better understand
+    the functional mechanisms underlying the connection between immune system, microbiome,
+    human gene expression, and disease etiology. The ROP pipeline is freely available
+    at https://sergheimangul.wordpress.com/rop/
+  authors:
+  - Mangul S
+  - Yang HT
+  - Strauli N
+  - Gruhl F
+  - Daley T
+  - Christenson S
+  - Wesolowska Andersen A
+  - Spreafico R
+  - Rios C
+  - Eng C
+  - Smith AD
+  - Hernandez RD
+  - Ophoff RA
+  - Santana JR
+  - Woodruff PG
+  - Burchard E
+  - Seibold MA
+  - Shifman S
+  - Eskin E
+  - Zaitlen N
+  authors_full:
+  - Mangul, Serghei
+  - Yang, Harry Taegyun
+  - Strauli, Nicolas
+  - Gruhl, Franziska
+  - Daley, Timothy
+  - Christenson, Stephanie
+  - Wesolowska Andersen, Agata
+  - Spreafico, Roberto
+  - Rios, Cydney
+  - Eng, Celeste
+  - Smith, Andrew D.
+  - Hernandez, Ryan D.
+  - Ophoff, Roel A.
+  - Santana, Jose Rodriguez
+  - Woodruff, Prescott G.
+  - Burchard, Esteban
+  - Seibold, Max A.
+  - Shifman, Sagiv
+  - Eskin, Eleazar
+  - Zaitlen, Noah
+  date: 2016-05-13 00:00:00
+  doi: 10.1101/053041
+  journal: bioRxiv
+  journal_full: bioRxiv
+  title: Dumpster diving in RNA-sequencing to find the source of every last read
+  year: 2016
 - abstract: Severe infection with respiratory syncytial virus (RSV) during infancy
     is strongly associated with the development of asthma. To identify genetic variation
     that contributes to asthma following severe RSV bronchiolitis during infancy,
@@ -102,6 +167,116 @@
   journal_full: Nature
   pmid: '26432245'
   title: A global reference for human genetic variation.
+  year: 2015
+- abstract: 'SUMMARY: Modern implementations of forward population genetic simulations
+    are efficient and flexible, enabling the exploration of complex models that may
+    otherwise be intractable. Here we describe an updated version of SFS_CODE, which
+    has increased efficiency and includes many novel features. Among these features
+    is an arbitrary model of dominance, the ability to simulate partial and soft selective
+    sweeps, as well as track the trajectories of mutations and/or ancestries across
+    multiple populations under complex models that are not possible under a coalescent
+    framework. We also release sfs_coder, a Python wrapper to SFS_CODE allowing the
+    user to easily generate command lines for common models of demography, selection,
+    and human genome structure, as well as parse and simulate phenotypes from SFS_CODE
+    output. Availability and Implementation: Our open source software is written in
+    C and Python, and are available under the GNU General Public License at http://sfscode.sourceforge.net.
+    Contact: ryan.hernandez@ucsf.edu Supplementary information: Detailed usage information
+    is available from the project website at http://sfscode.sourceforge.net.'
+  authors:
+  - Hernandez RD
+  - Uricchio LH
+  authors_full:
+  - Hernandez, Ryan D.
+  - Uricchio, Lawrence H.
+  date: 2015-08-20 00:00:00
+  doi: 10.1101/025064
+  journal: bioRxiv
+  journal_full: bioRxiv
+  title: 'SFS_CODE: More Efficient and Flexible Forward Simulations'
+  year: 2015
+- abstract: !!python/str "Background: Vaccines dramatically affect an individual\u2019\
+    s adaptive immune system, and thus provide an excellent means to study human immunity.\
+    \ Upon vaccination, the B cells that express antibodies (Abs) that happen to bind\
+    \ the vaccine are stimulated to proliferate and undergo mutagenesis at their Ab\
+    \ locus. This process may alter the composition of B cell lineages within an individual,\
+    \ which are known collectively as the antibody repertoire (AbR). Antibodies are\
+    \ also highly expressed in whole blood, potentially enabling unbiased RNA sequencing\
+    \ technologies to query this diversity. Less is known about the diversity of AbR\
+    \ responses across individuals to a given vaccine and if individuals tend to yield\
+    \ a similar response to the same antigenic stimulus. Methods: Here we implement\
+    \ a bioinformatic pipeline that extracts the AbR information from a time-series\
+    \ RNA-seq dataset of 5 patients who were administered a seasonal trivalent influenza\
+    \ vaccine (TIV). We harness the detailed time-series nature of this dataset and\
+    \ use methods based in functional data analysis (FDA) to identify the B cell lineages\
+    \ that respond to the vaccine. We then design and implement rigorous statistical\
+    \ tests in order to ask whether or not these patients exhibit a convergent AbR\
+    \ response to the same TIV. Results: We find that high-resolution time-series\
+    \ data can be used to help identify the Ab lineages that respond to an antigenic\
+    \ stimulus, and that this response can exhibit a convergent nature across patients\
+    \ inoculated with the same vaccine. However, correlations in AbR diversity among\
+    \ individuals prior to inoculation can confound inference of a convergent signal\
+    \ unless it is taken into account. Conclusions: We developed a framework to identify\
+    \ the elements of an AbR that respond to an antigen. This information could be\
+    \ used to understand the diversity of different immune responses in different\
+    \ individuals, as well as to gauge the effectiveness of the immune response to\
+    \ a given stimulus within an individual. We also present a framework for testing\
+    \ a convergent hypothesis between AbRs; a hypothesis that is more difficult to\
+    \ test than previously appreciated. Our discovery of a convergent signal suggests\
+    \ that similar epitopes do select for antibodies with similar sequence characteristics."
+  authors:
+  - Strauli N
+  - Hernandez R
+  authors_full:
+  - Strauli, Nicolas
+  - Hernandez, Ryan
+  date: 2015-08-20 00:00:00
+  doi: 10.1101/025098
+  journal: bioRxiv
+  journal_full: bioRxiv
+  title: Statistical Inference of a Convergent Antibody Repertoire Response to Influenza
+    Vaccine
+  year: 2015
+- abstract: 'Background: Vaccines dramatically affect an individual''s adaptive immune
+    system, and thus provide an excellent means to study human immunity. Upon vaccination,
+    the B cells that express antibodies (Abs) that happen to bind the vaccine are
+    stimulated to proliferate and undergo mutagenesis at their Ab locus. This process
+    may alter the composition of B cell lineages within an individual, which are known
+    collectively as the antibody repertoire (AbR). Antibodies are also highly expressed
+    in whole blood, potentially enabling unbiased RNA sequencing technologies to query
+    this diversity. Less is known about the diversity of AbR responses across individuals
+    to a given vaccine and if individuals tend to yield a similar response to the
+    same antigenic stimulus. Methods: Here we implement a bioinformatic pipeline that
+    extracts the AbR information from a time-series RNA-seq dataset of 5 patients
+    who were administered a seasonal trivalent influenza vaccine (TIV). We harness
+    the detailed time-series nature of this dataset and use methods based in functional
+    data analysis (FDA) to identify the B cell lineages that respond to the vaccine.
+    We then design and implement rigorous statistical tests in order to ask whether
+    or not these patients exhibit a convergent AbR response to the same TIV. Results:
+    We find that high-resolution time-series data can be used to help identify the
+    Ab lineages that respond to an antigenic stimulus, and that this response can
+    exhibit a convergent nature across patients inoculated with the same vaccine.
+    However, correlations in AbR diversity among individuals prior to inoculation
+    can confound inference of a convergent signal unless it is taken into account.
+    Conclusions: We developed a framework to identify the elements of an AbR that
+    respond to an antigen. This information could be used to understand the diversity
+    of different immune responses in different individuals, as well as to gauge the
+    effectiveness of the immune response to a given stimulus within an individual.
+    We also present a framework for testing a convergent hypothesis between AbRs;
+    a hypothesis that is more difficult to test than previously appreciated. Our discovery
+    of a convergent signal suggests that similar epitopes do select for antibodies
+    with similar sequence characteristics.'
+  authors:
+  - Strauli N
+  - Hernandez R
+  authors_full:
+  - Strauli, Nicolas
+  - Hernandez, Ryan
+  date: 2015-08-20 00:00:00
+  doi: 10.1101/025098
+  journal: bioRxiv
+  journal_full: bioRxiv
+  title: Statistical Inference of a Convergent Antibody Repertoire Response to Influenza
+    Vaccine
   year: 2015
 - abstract: 'BACKGROUND: IgE is a key mediator of allergic inflammation, and its levels
     are frequently increased in patients with allergic disorders. OBJECTIVE: We sought
@@ -312,6 +487,42 @@
   journal_full: PeerJ
   pmid: '25780776'
   title: 'CauseMap: fast inference of causality from complex time series.'
+  year: 2015
+- abstract: Much recent debate has focused on the role of rare variants in complex
+    phenotypes. However, it is well known that rare alleles can only contribute a
+    substantial proportion of the phenotypic variance when they have much larger effect
+    sizes than common variants, which is most easily explained by natural selection
+    constraining trait-altering alleles to low frequency. It is also plausible that
+    demographic events will influence the genetic architecture of complex traits.
+    Unfortunately, most rare variant association tests do not explicitly model natural
+    selection or non-equilibrium demography. Here, we develop a novel evolutionary
+    model of complex traits. We perform numerical calculations and simulate phenotypes
+    under this model using inferred human demographic and selection parameters. We
+    show that rare variants only contribute substantially to complex traits under
+    very strong assumptions about the relationship between effect size and selection
+    strength. We then assess the performance of state-of-the-art rare variant tests
+    using our simulations across a broad range of model parameters. Counterintuitively,
+    we find that statistical power is lowest when rare variants make the greatest
+    contribution to the additive variance, and that power is substantially lower under
+    our model than previously studied models. While many empirical studies have attempted
+    to identify causal loci using rare variant association methods, few have reported
+    novel associations. Some authors have interpreted this to mean that rare variants
+    contribute little to heritability, but our results show that an alternative explanation
+    is that rare variant tests have less power than previously estimated.
+  authors:
+  - Uricchio LH
+  - Witte JS
+  - Hernandez RD
+  authors_full:
+  - Uricchio, Lawrence H.
+  - Witte, John S.
+  - Hernandez, Ryan D.
+  date: 2015-03-02 00:00:00
+  doi: 10.1101/015917
+  journal: bioRxiv
+  journal_full: bioRxiv
+  title: Selection and explosive growth may hamper the performance of rare variant
+    association tests
   year: 2015
 - abstract: Mapping host-pathogen interactions has proven instrumental for understanding
     how viruses manipulate host machinery and how numerous cellular processes are
@@ -628,6 +839,48 @@
   journal_full: Genetics
   pmid: '24561480'
   title: Robust forward simulations of recurrent hitchhiking.
+  year: 2014
+- abstract: Assessing the statistical significance of an observed 2x2 contingency
+    table can easily be accomplished using Fisher's exact test (FET). However, if
+    the cell entries are continuous or represent values inferred from a continuous
+    parametric model, then FET cannot be applied. Such tables arise frequently in
+    areas of biostatistical research including population genetics and evolutionary
+    genomics, where cell entries are estimated by computational methods and result
+    in cell entries drawn from the non-negative real line R+. Simply rounding cell
+    entries to conform to the assumptions of FET is an ill-suited approach that we
+    show creates problems related to both type-I and type-II errors. Pearson's chi^2
+    test for independence, while technically applicable, is not often effective for
+    these tables, as the test has several limiting assumptions that make application
+    of this method inadvisable in many common instances (particularly with small cell
+    entries). Here we develop a novel method for tables with continuous entries, which
+    we term continuous Fisher's Exact Test (cFET). Through simulations, we show that
+    cFET has a close-to-uniform distribution of p-values under the null hypothesis
+    of independence, and more power when applied to tables where the null hypothesis
+    is false (compared to FET applied to rounded cell entries). We apply cFET to an
+    example from comparative genomics to confirm an overall increased evolutionary
+    rate among primates compared to rodents, and identify several genes that show
+    particularly elevated evolutionary rates in primates. Some of these genes exhibit
+    signatures of continued positive selection along the human lineage since our divergence
+    with chimpanzee 5-7 million years ago, as well as ongoing selection in modern
+    humans.
+  authors:
+  - Thompson AM
+  - Maher MC
+  - Uricchio LH
+  - Szpiech ZA
+  - Hernandez RD
+  authors_full:
+  - Thompson, A. Morgan
+  - Maher, M. Cyrus
+  - Uricchio, Lawrence H.
+  - Szpiech, Zachary A.
+  - Hernandez, Ryan D.
+  date: 2014-04-01 00:00:00
+  doi: arXiv:1404.2992
+  journal: ArXiv e-prints
+  journal_full: ArXiv e-prints
+  title: Comparing Evolutionary Rates Using An Exact Test for 2x2 Tables with Continuous
+    Cell Entries
   year: 2014
 - abstract: 'BACKGROUND: The primary rescue medication to treat acute asthma exacerbation
     is the short-acting beta(2)-adrenergic receptor agonist; however, there is variation
@@ -1408,6 +1661,17 @@
   pmid: '22190034'
   title: Global landscape of HIV-human protein complexes.
   year: 2012
+- authors:
+  - Torgerson DG
+  - Hernandez RD
+  authors_full:
+  - Torgerson, Dara G
+  - Hernandez, Ryan D
+  date: 2012-01-01 00:00:00
+  journal: Rapidly Evolving Genes and Genetic Systems
+  journal_full: Rapidly Evolving Genes and Genetic Systems
+  title: Evolutionary signatures in non-coding DNA
+  year: 2012
 - abstract: Through an analysis of polymorphism within and divergence between species,
     we can hope to learn about the distribution of selective effects of mutations
     in the genome, changes in the fitness landscape that occur over time, and the
@@ -1630,15 +1894,12 @@
   - Children's Health Study (CHS) and HARBORS study
   - Burchard EG
   - Genetics of Asthma in Latino Americans (GALA) Study, Study of Genes-Environment
-    and Admixture in Latino Americans (GALA2) and Study of African Americans, Asthma,
-    Genes & Environments (SAGE)
   - Martinez FD
   - Childhood Asthma Research and Education (CARE) Network
   - Weiss ST
   - Childhood Asthma Management Program (CAMP)
   - Williams LK
   - Study of Asthma Phenotypes and Pharmacogenomic Interactions by Race-Ethnicity
-    (SAPPHIRE)
   - Barnes KC
   - Genetic Research on Asthma in African Diaspora (GRAAD) Study
   - Ober C
@@ -1716,15 +1977,12 @@
   - Children's Health Study (CHS) and HARBORS study
   - Burchard, Esteban G
   - Genetics of Asthma in Latino Americans (GALA) Study, Study of Genes-Environment
-    and Admixture in Latino Americans (GALA2) and Study of African Americans, Asthma,
-    Genes & Environments (SAGE)
   - Martinez, Fernando D
   - Childhood Asthma Research and Education (CARE) Network
   - Weiss, Scott T
   - Childhood Asthma Management Program (CAMP)
   - Williams, L Keoki
   - Study of Asthma Phenotypes and Pharmacogenomic Interactions by Race-Ethnicity
-    (SAPPHIRE)
   - Barnes, Kathleen C
   - Genetic Research on Asthma in African Diaspora (GRAAD) Study
   - Ober, Carole
@@ -2824,6 +3082,54 @@
   title: Context dependence, ancestral misidentification, and spurious signatures
     of natural selection.
   year: 2007
+- abstract: To understand the demographic history of rhesus macaques (Macaca mulatta)
+    and document the extent of linkage disequilibrium (LD) in the genome, we partially
+    resequenced five Encyclopedia of DNA Elements regions in 9 Chinese and 38 captive-born
+    Indian rhesus macaques. Population genetic analyses of the 1467 single-nucleotide
+    polymorphisms discovered suggest that the two populations separated about 162,000
+    years ago, with the Chinese population tripling in size since then and the Indian
+    population eventually shrinking by a factor of four. Using coalescent simulations,
+    we confirmed that these inferred demographic events explain a much faster decay
+    of LD in Chinese (r(2) approximately 0.15 at 10 kilobases) versus Indian (r(2)
+    approximately 0.52 at 10 kilobases) macaque populations.
+  authors:
+  - Hernandez RD
+  - Hubisz MJ
+  - Wheeler DA
+  - Smith DG
+  - Ferguson B
+  - Rogers J
+  - Nazareth L
+  - Indap A
+  - Bourquin T
+  - McPherson J
+  - Muzny D
+  - Gibbs R
+  - Nielsen R
+  - Bustamante CD
+  authors_full:
+  - Hernandez, Ryan D
+  - Hubisz, Melissa J
+  - Wheeler, David A
+  - Smith, David G
+  - Ferguson, Betsy
+  - Rogers, Jeffrey
+  - Nazareth, Lynne
+  - Indap, Amit
+  - Bourquin, Traci
+  - McPherson, John
+  - Muzny, Donna
+  - Gibbs, Richard
+  - Nielsen, Rasmus
+  - Bustamante, Carlos D
+  date: 2007-04-13 00:00:00
+  doi: 10.1126/science.1140462
+  journal: Science
+  journal_full: Science (New York, N.Y.)
+  pmid: '17431170'
+  title: Demographic histories and patterns of linkage disequilibrium in Chinese and
+    Indian rhesus macaques.
+  year: 2007
 - abstract: The rhesus macaque (Macaca mulatta) is an abundant primate species that
     diverged from the ancestors of Homo sapiens about 25 million years ago. Because
     they are genetically and physiologically similar to humans, rhesus monkeys are
@@ -3198,54 +3504,6 @@
   journal_full: Science (New York, N.Y.)
   pmid: '17431167'
   title: Evolutionary and biomedical insights from the rhesus macaque genome.
-  year: 2007
-- abstract: To understand the demographic history of rhesus macaques (Macaca mulatta)
-    and document the extent of linkage disequilibrium (LD) in the genome, we partially
-    resequenced five Encyclopedia of DNA Elements regions in 9 Chinese and 38 captive-born
-    Indian rhesus macaques. Population genetic analyses of the 1467 single-nucleotide
-    polymorphisms discovered suggest that the two populations separated about 162,000
-    years ago, with the Chinese population tripling in size since then and the Indian
-    population eventually shrinking by a factor of four. Using coalescent simulations,
-    we confirmed that these inferred demographic events explain a much faster decay
-    of LD in Chinese (r(2) approximately 0.15 at 10 kilobases) versus Indian (r(2)
-    approximately 0.52 at 10 kilobases) macaque populations.
-  authors:
-  - Hernandez RD
-  - Hubisz MJ
-  - Wheeler DA
-  - Smith DG
-  - Ferguson B
-  - Rogers J
-  - Nazareth L
-  - Indap A
-  - Bourquin T
-  - McPherson J
-  - Muzny D
-  - Gibbs R
-  - Nielsen R
-  - Bustamante CD
-  authors_full:
-  - Hernandez, Ryan D
-  - Hubisz, Melissa J
-  - Wheeler, David A
-  - Smith, David G
-  - Ferguson, Betsy
-  - Rogers, Jeffrey
-  - Nazareth, Lynne
-  - Indap, Amit
-  - Bourquin, Traci
-  - McPherson, John
-  - Muzny, Donna
-  - Gibbs, Richard
-  - Nielsen, Rasmus
-  - Bustamante, Carlos D
-  date: 2007-04-13 00:00:00
-  doi: 10.1126/science.1140462
-  journal: Science
-  journal_full: Science (New York, N.Y.)
-  pmid: '17431170'
-  title: Demographic histories and patterns of linkage disequilibrium in Chinese and
-    Indian rhesus macaques.
   year: 2007
 - abstract: Comparisons of DNA polymorphism within species to divergence between species
     enables the discovery of molecular adaptation in evolutionarily constrained genes
