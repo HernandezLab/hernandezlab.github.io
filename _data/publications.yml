@@ -1,3 +1,37 @@
+- abstract: The role of rare alleles in complex phenotypes has been hotly debated,
+    but most rare variant association tests (RVATs) do not account for the evolutionary
+    forces that affect genetic architecture. Here, we use simulation and numerical
+    algorithms to show that explosive population growth, as experienced by human populations,
+    can dramatically increase the impact of very rare alleles on trait variance. We
+    then assess the ability of RVATs to detect causal loci using simulations and human
+    RNA-seq data. Surprisingly, we find that statistical performance is worst for
+    phenotypes in which genetic variance is due mainly to rare alleles, and that explosive
+    population growth decreases power. While many studies have attempted to identify
+    causal rare variants, few have reported novel associations. This has sometimes
+    been interpreted to mean that rare variants make negligible contributions to complex
+    trait heritability. Our work shows that RVATs are not robust to realistic human
+    evolutionary forces, so general conclusions about rare variants' impact on complex
+    traits may be premature.
+  authors:
+  - Uricchio LH
+  - Zaitlen NA
+  - Ye CJ
+  - Witte JS
+  - Hernandez RD
+  authors_full:
+  - Uricchio, Lawrence H
+  - Zaitlen, Noah A
+  - Ye, Chun Jimmie
+  - Witte, John S
+  - Hernandez, Ryan D
+  date: 2016-05-18 00:00:00
+  doi: 10.1101/gr.202440.115
+  journal: Genome Res
+  journal_full: Genome Research
+  pmid: '27197206'
+  title: Selection and explosive growth alter genetic architecture and hamper the
+    detection of causal rare variants.
+  year: 2016
 - abstract: High throughput RNA sequencing technologies have provided invaluable research
     opportunities across distinct scientific domains by producing quantitative readouts
     of the transcriptional activity of both entire cellular populations and single
@@ -193,48 +227,6 @@
   journal: bioRxiv
   journal_full: bioRxiv
   title: 'SFS_CODE: More Efficient and Flexible Forward Simulations'
-  year: 2015
-- abstract: !!python/str "Background: Vaccines dramatically affect an individual\u2019\
-    s adaptive immune system, and thus provide an excellent means to study human immunity.\
-    \ Upon vaccination, the B cells that express antibodies (Abs) that happen to bind\
-    \ the vaccine are stimulated to proliferate and undergo mutagenesis at their Ab\
-    \ locus. This process may alter the composition of B cell lineages within an individual,\
-    \ which are known collectively as the antibody repertoire (AbR). Antibodies are\
-    \ also highly expressed in whole blood, potentially enabling unbiased RNA sequencing\
-    \ technologies to query this diversity. Less is known about the diversity of AbR\
-    \ responses across individuals to a given vaccine and if individuals tend to yield\
-    \ a similar response to the same antigenic stimulus. Methods: Here we implement\
-    \ a bioinformatic pipeline that extracts the AbR information from a time-series\
-    \ RNA-seq dataset of 5 patients who were administered a seasonal trivalent influenza\
-    \ vaccine (TIV). We harness the detailed time-series nature of this dataset and\
-    \ use methods based in functional data analysis (FDA) to identify the B cell lineages\
-    \ that respond to the vaccine. We then design and implement rigorous statistical\
-    \ tests in order to ask whether or not these patients exhibit a convergent AbR\
-    \ response to the same TIV. Results: We find that high-resolution time-series\
-    \ data can be used to help identify the Ab lineages that respond to an antigenic\
-    \ stimulus, and that this response can exhibit a convergent nature across patients\
-    \ inoculated with the same vaccine. However, correlations in AbR diversity among\
-    \ individuals prior to inoculation can confound inference of a convergent signal\
-    \ unless it is taken into account. Conclusions: We developed a framework to identify\
-    \ the elements of an AbR that respond to an antigen. This information could be\
-    \ used to understand the diversity of different immune responses in different\
-    \ individuals, as well as to gauge the effectiveness of the immune response to\
-    \ a given stimulus within an individual. We also present a framework for testing\
-    \ a convergent hypothesis between AbRs; a hypothesis that is more difficult to\
-    \ test than previously appreciated. Our discovery of a convergent signal suggests\
-    \ that similar epitopes do select for antibodies with similar sequence characteristics."
-  authors:
-  - Strauli N
-  - Hernandez R
-  authors_full:
-  - Strauli, Nicolas
-  - Hernandez, Ryan
-  date: 2015-08-20 00:00:00
-  doi: 10.1101/025098
-  journal: bioRxiv
-  journal_full: bioRxiv
-  title: Statistical Inference of a Convergent Antibody Repertoire Response to Influenza
-    Vaccine
   year: 2015
 - abstract: 'Background: Vaccines dramatically affect an individual''s adaptive immune
     system, and thus provide an excellent means to study human immunity. Upon vaccination,
@@ -579,44 +571,6 @@
   title: Global mapping of herpesvirus-host protein complexes reveals a transcription
     strategy for late genes.
   year: 2015
-- abstract: Demographic events and natural selection alter patterns of genetic variation
-    within populations and may play a substantial role in shaping the genetic architecture
-    of complex phenotypes and disease. However, the joint impact of these basic evolutionary
-    forces is often ignored in the assessment of statistical tests of association.
-    Here, we provide a simulation-based framework for generating DNA sequences that
-    incorporates selection and demography with flexible models for simulating phenotypic
-    variation (sfs_coder). This tool also allows the user to perform locus-specific
-    simulations by automatically querying annotated genomic functional elements and
-    genetic maps. We demonstrate the effects of evolutionary forces on patterns of
-    genetic variation by simulating recently inferred models of human selection and
-    demography. We use these simulations to show that the demographic model and locus-specific
-    features, such as the proportion of sites under selection, may have practical
-    implications for estimating the statistical power of sequencing-based rare variant
-    association tests. In particular, for some phenotype models, there may be higher
-    power to detect rare variant associations in African populations compared to non-Africans,
-    but power is considerably reduced in regions of the genome with rampant negative
-    selection. Furthermore, we show that existing methods for simulating large samples
-    based on resampling from a small set of observed haplotypes fail to recapitulate
-    the distribution of rare variants in the presence of rapid population growth (as
-    has been observed in several human populations).
-  authors:
-  - Uricchio LH
-  - Torres R
-  - Witte JS
-  - Hernandez RD
-  authors_full:
-  - Uricchio, Lawrence H
-  - Torres, Raul
-  - Witte, John S
-  - Hernandez, Ryan D
-  date: 2015-01-01 00:00:00
-  doi: 10.1002/gepi.21866
-  journal: Genet Epidemiol
-  journal_full: Genetic Epidemiology
-  pmid: '25417809'
-  title: Population genetic simulations of complex phenotypes with implications for
-    rare variant association tests.
-  year: 2015
 - abstract: Genetic simulation programs are used to model data under specified assumptions
     to facilitate the understanding and study of complex genetic systems. Standardized
     data sets generated using genetic simulation are essential for the development
@@ -683,6 +637,44 @@
   pmid: '25371374'
   title: Genetic simulation tools for post-genome wide association studies of complex
     diseases.
+  year: 2015
+- abstract: Demographic events and natural selection alter patterns of genetic variation
+    within populations and may play a substantial role in shaping the genetic architecture
+    of complex phenotypes and disease. However, the joint impact of these basic evolutionary
+    forces is often ignored in the assessment of statistical tests of association.
+    Here, we provide a simulation-based framework for generating DNA sequences that
+    incorporates selection and demography with flexible models for simulating phenotypic
+    variation (sfs_coder). This tool also allows the user to perform locus-specific
+    simulations by automatically querying annotated genomic functional elements and
+    genetic maps. We demonstrate the effects of evolutionary forces on patterns of
+    genetic variation by simulating recently inferred models of human selection and
+    demography. We use these simulations to show that the demographic model and locus-specific
+    features, such as the proportion of sites under selection, may have practical
+    implications for estimating the statistical power of sequencing-based rare variant
+    association tests. In particular, for some phenotype models, there may be higher
+    power to detect rare variant associations in African populations compared to non-Africans,
+    but power is considerably reduced in regions of the genome with rampant negative
+    selection. Furthermore, we show that existing methods for simulating large samples
+    based on resampling from a small set of observed haplotypes fail to recapitulate
+    the distribution of rare variants in the presence of rapid population growth (as
+    has been observed in several human populations).
+  authors:
+  - Uricchio LH
+  - Torres R
+  - Witte JS
+  - Hernandez RD
+  authors_full:
+  - Uricchio, Lawrence H
+  - Torres, Raul
+  - Witte, John S
+  - Hernandez, Ryan D
+  date: 2015-01-01 00:00:00
+  doi: 10.1002/gepi.21866
+  journal: Genet Epidemiol
+  journal_full: Genetic Epidemiology
+  pmid: '25417809'
+  title: Population genetic simulations of complex phenotypes with implications for
+    rare variant association tests.
   year: 2015
 - abstract: Haplotype-based scans to detect natural selection are useful to identify
     recent or ongoing positive selection in genomes. As both real and simulated genomic
@@ -1332,6 +1324,43 @@
   journal_full: Nature
   pmid: '23128226'
   title: An integrated map of genetic variation from 1,092 human genomes.
+  year: 2012
+- abstract: UGT2B enzymes metabolize multiple endogenous and exogenous molecules,
+    including steroid hormones and clinical drugs. However, little is known about
+    the inter-individual variation in gene expression and its determinants. We re-sequenced
+    candidate regulatory regions and the partial coding regions (41.1 kb) of UGT2B
+    genes and identified 332 genetic variants. We measured gene expression in normal
+    breast and liver samples and observed different patterns. The expression levels
+    varied greatly across individuals in both tissues and were significantly correlated
+    with each other in liver. Genotyping of tagging single-nucleotide polymorphisms
+    (SNPs) in the same samples and association tests between genotype and transcript
+    levels identified 62 variants that were associated with at least one UGT2B mRNA
+    levels in either tissue. Most of these cis-regulatory SNPs were not shared between
+    tissues, suggesting that this gene family is regulated in a tissue-specific manner.
+    Our results provide insight into studying the role of UGT2B variation in hormone-dependent
+    cancers and drug response.
+  authors:
+  - Sun C
+  - Southard C
+  - Huo D
+  - Hernandez RD
+  - Witonsky DB
+  - Olopade OI
+  - Di Rienzo A
+  authors_full:
+  - Sun, C
+  - Southard, C
+  - Huo, D
+  - Hernandez, R D
+  - Witonsky, D B
+  - Olopade, O I
+  - Di Rienzo, A
+  date: 2012-08-01 00:00:00
+  doi: 10.1038/tpj.2011.2
+  journal: Pharmacogenomics J
+  journal_full: The Pharmacogenomics Journal
+  pmid: '21358749'
+  title: SNP discovery, expression and cis-regulatory variation in the UGT2B genes.
   year: 2012
 - abstract: 'BACKGROUND: Polymorphisms in more than 100 genes have been associated
     with asthma susceptibility, yet much of the heritability remains to be explained.
@@ -3082,54 +3111,6 @@
   title: Context dependence, ancestral misidentification, and spurious signatures
     of natural selection.
   year: 2007
-- abstract: To understand the demographic history of rhesus macaques (Macaca mulatta)
-    and document the extent of linkage disequilibrium (LD) in the genome, we partially
-    resequenced five Encyclopedia of DNA Elements regions in 9 Chinese and 38 captive-born
-    Indian rhesus macaques. Population genetic analyses of the 1467 single-nucleotide
-    polymorphisms discovered suggest that the two populations separated about 162,000
-    years ago, with the Chinese population tripling in size since then and the Indian
-    population eventually shrinking by a factor of four. Using coalescent simulations,
-    we confirmed that these inferred demographic events explain a much faster decay
-    of LD in Chinese (r(2) approximately 0.15 at 10 kilobases) versus Indian (r(2)
-    approximately 0.52 at 10 kilobases) macaque populations.
-  authors:
-  - Hernandez RD
-  - Hubisz MJ
-  - Wheeler DA
-  - Smith DG
-  - Ferguson B
-  - Rogers J
-  - Nazareth L
-  - Indap A
-  - Bourquin T
-  - McPherson J
-  - Muzny D
-  - Gibbs R
-  - Nielsen R
-  - Bustamante CD
-  authors_full:
-  - Hernandez, Ryan D
-  - Hubisz, Melissa J
-  - Wheeler, David A
-  - Smith, David G
-  - Ferguson, Betsy
-  - Rogers, Jeffrey
-  - Nazareth, Lynne
-  - Indap, Amit
-  - Bourquin, Traci
-  - McPherson, John
-  - Muzny, Donna
-  - Gibbs, Richard
-  - Nielsen, Rasmus
-  - Bustamante, Carlos D
-  date: 2007-04-13 00:00:00
-  doi: 10.1126/science.1140462
-  journal: Science
-  journal_full: Science (New York, N.Y.)
-  pmid: '17431170'
-  title: Demographic histories and patterns of linkage disequilibrium in Chinese and
-    Indian rhesus macaques.
-  year: 2007
 - abstract: The rhesus macaque (Macaca mulatta) is an abundant primate species that
     diverged from the ancestors of Homo sapiens about 25 million years ago. Because
     they are genetically and physiologically similar to humans, rhesus monkeys are
@@ -3504,6 +3485,54 @@
   journal_full: Science (New York, N.Y.)
   pmid: '17431167'
   title: Evolutionary and biomedical insights from the rhesus macaque genome.
+  year: 2007
+- abstract: To understand the demographic history of rhesus macaques (Macaca mulatta)
+    and document the extent of linkage disequilibrium (LD) in the genome, we partially
+    resequenced five Encyclopedia of DNA Elements regions in 9 Chinese and 38 captive-born
+    Indian rhesus macaques. Population genetic analyses of the 1467 single-nucleotide
+    polymorphisms discovered suggest that the two populations separated about 162,000
+    years ago, with the Chinese population tripling in size since then and the Indian
+    population eventually shrinking by a factor of four. Using coalescent simulations,
+    we confirmed that these inferred demographic events explain a much faster decay
+    of LD in Chinese (r(2) approximately 0.15 at 10 kilobases) versus Indian (r(2)
+    approximately 0.52 at 10 kilobases) macaque populations.
+  authors:
+  - Hernandez RD
+  - Hubisz MJ
+  - Wheeler DA
+  - Smith DG
+  - Ferguson B
+  - Rogers J
+  - Nazareth L
+  - Indap A
+  - Bourquin T
+  - McPherson J
+  - Muzny D
+  - Gibbs R
+  - Nielsen R
+  - Bustamante CD
+  authors_full:
+  - Hernandez, Ryan D
+  - Hubisz, Melissa J
+  - Wheeler, David A
+  - Smith, David G
+  - Ferguson, Betsy
+  - Rogers, Jeffrey
+  - Nazareth, Lynne
+  - Indap, Amit
+  - Bourquin, Traci
+  - McPherson, John
+  - Muzny, Donna
+  - Gibbs, Richard
+  - Nielsen, Rasmus
+  - Bustamante, Carlos D
+  date: 2007-04-13 00:00:00
+  doi: 10.1126/science.1140462
+  journal: Science
+  journal_full: Science (New York, N.Y.)
+  pmid: '17431170'
+  title: Demographic histories and patterns of linkage disequilibrium in Chinese and
+    Indian rhesus macaques.
   year: 2007
 - abstract: Comparisons of DNA polymorphism within species to divergence between species
     enables the discovery of molecular adaptation in evolutionarily constrained genes
