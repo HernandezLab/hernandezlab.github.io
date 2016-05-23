@@ -1,13 +1,14 @@
 ---
 group: people
 ---
-
 {% for gp in site.data.members %}
   <h2>{{gp.group}}</h2>
   {% for member in {{gp.members}} %}
+    
     {% if gp.group != 'Ryan Hernandez' %}
       <h3>{{member.name}}</h3>
     {% endif %}
+    
     <div class="row">
       <div class="col-sm-5">
         {% if member.image %}
@@ -22,10 +23,12 @@ group: people
       </div>
     
       <div class="col-sm-7">
-        {% if member.description %}
-          <p>{{member.description | markdownify}}</p>
+        {% if member.bio %}
+        {% capture bio %}{% include {{member.bio}} %}{% endcapture %}
+        {{ bio | markdownify }}
         {% endif %}
       </div>
     </div>
+  
   {% endfor %}
 {% endfor %}

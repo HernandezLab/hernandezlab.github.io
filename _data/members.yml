@@ -1,76 +1,73 @@
+--- 
 - 
   group: "Ryan Hernandez"
   members: 
     - 
-      name: "Ryan Hernandez"
-      affiliation: 
-        |-
+      affiliation: |-
           Associate Professor  
           [Department of Bioengineering and Therapeutic Sciences](http://bts.ucsf.edu/)
+      bio: /people/ryan-hernandez.md
       contact: "[ryan.hernadez@ucsf.edu](mailto:ryan.hernadez@ucsf.edu)"
-      description: "Ryan studies patterns of genetic variation in modern day populations to gain insights into their evolutionary history. His focus is on the development of population genetic models that can best explain observed data, with the goal of understanding the genetic basis for complex traits.  Ryan's interests span basic population genetics, human disease genetics, and host-pathogen interactions.  His scientific approach tends to be highly computational, often involving a thorough analysis of detailed simulations."
       image: /static/img/headshot-Hernandez.jpg
-- group: "Postdoctoral Scholars"
-  members:
+      name: "Ryan Hernandez"
+- 
+  group: "Postdoctoral Scholars"
+  members: 
     - 
-      name: "Zachary A Szpiech"
-      description: "Zachary completed a BS in mathematics at the University of Michigan and stayed to earn a PhD in Bioinformatics with Noah Rosenberg. He studies how patterns of genetic variation respond to population-level processes including demography, selection, and social behaviors.  Through rigorous theoretical, computational, and analytical work, his research seeks to learn about the natural history of populations and the genetic basis of complex phenotypes.  His research extends across basic and applied sciences with relevance in diverse fields from anthropology to medicine."
-      contact: 
-      |-
-        [zachary.szpiech@ucsf.edu](mailto:first.last@ucsf.edu)  
-        [Website](http://www.szpiech.com/)  
-        [Publications](https://scholar.google.com/citations?user=jtdm2-0AAAAJ&hl=en)  
-        [Software Repository](https://github.com/szpiech/)
+      bio: /people/zachary-szpiech.md
+      contact: |-
+          [zachary.szpiech@ucsf.edu](mailto:first.last@ucsf.edu)  
+          [Website](http://www.szpiech.com/)  
+          [Publications](https://scholar.google.com/citations?user=jtdm2-0AAAAJ&hl=en)  
+          [Software Repository](https://github.com/szpiech/)
       image: /static/img/headshot-Szpiech.jpg
+      name: "Zachary A Szpiech"
 - 
   group: "Graduate Students"
   members: 
     - 
-      name: "Nicolas Strauli"
       affiliation: "[Biomedical Sciences (BMS) Graduate Program](https://bms.ucsf.edu/)"
+      bio: /people/nicolas-strauli.md
       contact: "[nicolas.strauli@ucsf.edu](mailto:nicolas.strauli@ucsf.edu)"
-      description: "Nicolas is interested in observing evolution take place in real-time. The purpose of this is two fold: (1) To use real-time evolution as a platform to test population genetics theory. (2) To gain knowledge about how quickly reproducing pathogens (or comensals) evolve in their host environment. Currently, he is working on a project that is addressing the question of how a single, genetically static human is able to fend off whole populations of quickly evolving pathogens. The answer clearly lies in the vast complexity of our immune systems, but with modern genetic sequencing technologies, we are only now able to address it. He plans to observe how a mouse's antibody repertoire, as well as the population of a pathogen, changes during the course of an infection."
       image: /static/img/headshot-Strauli.jpg
+      name: "Nicolas Strauli"
     - 
-      name: "Raul Torres"
       affiliation: "[Biomedical Sciences (BMS) Graduate Program](https://bms.ucsf.edu/)"
+      bio: /people/raul-rorres.md
       contact: "[raul.torres@ucsf.edu](mailto:raul.torres@ucsf.edu)"
-      description: "I am a graduate student in the Biomedical Sciences Graduate Program. I have undergraduate degrees in biology and anthropology and worked at the University of Chicago in the lab of Dr. Carole Ober. There, I worked to identify mitochondrial variants associated with preeclampsia in African Americans. I am broadly interested in understanding patterns of demography and natural selection in the human genome and how such patterns contribute to variation within and between different human populations."
       image: /static/img/headshot-Torres.jpg
+      name: "Raul Torres"
     - 
-      name: "Kevin Hartman"
       affiliation: "[Biological and Medical Informatics (BMI) Graduate Program](http://bioinformatics.ucsf.edu/)"
-      contact:
-        |-
+      bio: /people/kevin-hartman.md
+      contact: |-
           [kevin.hartman@ucsf.edu](mailto:kevin.hartman@ucsf.edu)  
-          [linkedin.com/in/khartman1](https://www.linkedin.com/in/khartman1)  
-          [hernandezlab.github.io/people/kevin-hartman](http://hernandezlab.github.io/people/kevin-hartman/)
-      description: "Kevin received his bachelors degree from the [California Institute of Technology](https://www.caltech.edu/) in Chemical Engineering. Following that, he worked in the biofuels industry for two years on scale up and validation microorganisms to produce fuel from renewable sources. His research will focus on developing tools to derive knowledge from population-level genomic and other sequencing data. Specifically, he will make use evolutionary metrics to better understand pathology of disease."
+          [linkedin.com/in/khartman1](https://www.linkedin.com/in/khartman1)
       image: /static/img/headshot-Hartman.jpg
+      name: "Kevin Hartman"
     - 
-      name: "Melissa Spear"
       affiliation: "[Biomedical Sciences (BMS) Graduate Program](https://bms.ucsf.edu/)"
+      bio: /people/melissa-spear.md
       contact: "[melissa.spear@ucsf.edu](mailto:melissa.spear@ucsf.edu)"
-      description: "Melissa did her undergraduate work at The University of Texas at El Paso in Biological Sciences. Her research delves in to the genetic history of admixed populations. When she is not in the lab, Melissa spends her time biking around SF and baking everything imaginable."
+      name: "Melissa Spear"
     - 
-      name: "Dominic Tong"
       affiliation: "[UC Berkeley - UCSF Joint Graduate Program in Bioengineering](http://bioegrad.berkeley.edu/)"
-      contact:
-        |-
+      bio: /people/dominic-tong.md
+      contact: |-
           [Email](mailto:dmctong@berkeley.edu)  
           [Website](https://dmctong.github.io)  
           [LinkedIn](https://www.linkedin.com/in/dominic-tong-53535320)
-      description: "Dominic did his undergraduate work at the University of British Columbia in Engineering Physics, a mix of electrical engineering and applied physics. He then continued his insanity and started his Bioengineering PhD work with Dr. Ryan Hernandez at UCSF, primarily focused on the role of rare variants in determining complex phenotypes and how to use that information in diagnostics. In his spare time, Dominic likes to hike to the tops of things, build electromechanical trinkets of varying utility, and in the very near future, forge a sword."
       image: /static/img/headshot-Tong.jpg
--
-  group: "Staff"
-  members:
-    -
+      name: "Dominic Tong"
+- 
+  group: Staff
+  members: 
+    - 
       name: "Daniel Vasco"
--
+- 
   group: "Former Members"
-  members:
-    -
+  members: 
+    - 
       name: "Cyrus Maher"
-    -
+    - 
       name: "Lawrence Uricchio"
