@@ -69,3 +69,7 @@
 :root #ucsf-banner-nav.no-logo .top-header-container ul.menu li.first {
     background: none;
 }
+
+p.publication-info{
+  padding-left: 15px;
+}
