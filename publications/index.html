@@ -18,10 +18,10 @@ group: publications
   <div class="col-sm-9 col-sm-pull-3">
       {% for pub in site.data.publications %}
           <h4>{{pub.title}}</h4>
-          {% assign first = true %}
+          <p class="publication-info">{% assign first = true %}
           {% for au in pub.authors %}{% unless first %},{% endunless %} {% if site.data.authors contains au %}<strong>{{au}}</strong>{% else %}{{au}}{% endif %}{% assign first = false %}{% endfor %}.<br/>
           {{pub.journal_full}} ({{pub.year}}).<br/>
-          {% if pub.pmid %}<strong>PMID</strong>: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{pub.pmid}}" target="_blank">{{pub.pmid}}</a>{% endif %} {% if pub.doi %}<strong>doi</strong>:<a href="http://dx.doi.org/{{pub.doi}}" target="_blank">{{pub.doi}}</a>{% endif %}
+          {% if pub.pmid %}<strong>PMID</strong>: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{pub.pmid}}" target="_blank">{{pub.pmid}}</a>{% endif %}{% if pub.doi %} <strong>doi</strong>:<a href="http://dx.doi.org/{{pub.doi}}" target="_blank">{{pub.doi}}</a>{% endif %}{% if pub.handle %}<a href="{{pub.handle.url}}" target="_blank">{{pub.handle.display}}</a>{% endif %}</p>
       {% endfor %}
     </ul>
   </div>

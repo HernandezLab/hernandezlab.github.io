@@ -868,7 +868,9 @@
   - Szpiech, Zachary A.
   - Hernandez, Ryan D.
   date: 2014-04-01 00:00:00
-  doi: arXiv:1404.2992
+  handle:
+    display: arXiv:1404.2992
+    url: http://arxiv.org/abs/1404.2992
   journal: ArXiv e-prints
   journal_full: ArXiv e-prints
   title: Comparing Evolutionary Rates Using An Exact Test for 2x2 Tables with Continuous

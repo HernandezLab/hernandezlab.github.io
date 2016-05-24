@@ -101,6 +101,13 @@ def readCitations(fn, type):
       pub_reformat['authors'] = [abbvAuthor(fau) for fau 
           in pub_reformat['authors_full']]
       
+      if 'HAN' in pub:
+        if 'arXiv:' in pub['HAN'][0]:
+          pub_reformat['handle'] = {}
+          pub_reformat['handle']['display'] = pub['HAN'][0]
+          pub_reformat['handle']['url'] = pub['HAN'][0].replace('arXiv:',
+              'http://arxiv.org/abs/')
+      
       pub_reformat['date'] = datetime.datetime.strptime(pub['Y1'][0],
           '%Y/%m/%d')
       pub_reformat['year'] = pub_reformat['date'].year
