@@ -23,7 +23,7 @@ systematic genomic patterns of variation. Using detailed simulations and models
 of background selection, we seek to learn more about our species' history and 
 to discover more of the functionally relevant regions of the genome.
 
-## Disease susceptibility in complex populations:
+## Disease susceptibility in complex populations
 
 Next-generation sequencing technologies are providing an unprecedented 
 opportunity to learn about the genetic basis of disease. We strive to leverage 
