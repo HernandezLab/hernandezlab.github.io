@@ -17,7 +17,7 @@ A program that implements EHH, iHS, and XP-EHH.
 
 An efficient implementation of Fisher's Exact Test, with extensions to contingency tables with continuous cell entries.
 
-[Download](http://dbts.ucsf.edu/hernandez_lab/c++/cfet.c)
+[Download](/software/cfet.c)
 
 ### A MOSAIC of methods: Improving ortholog detection through the integration of algorithmic diversity.
 
@@ -33,7 +33,7 @@ A tool for combining information from multiple ortholog detection methods for be
 
 This directory includes python scripts for rescaling parameters under the recurrent hitchhiking model, and for calculating the probability of fixation using the Galton-Watson process described in our paper.
 
-[Download](http://dbts.ucsf.edu/hernandez_lab/downloads/RHHrescaling.tgz)
+[Download](/software/RHHrescaling.tar)
 
 ### SFS_CODE: A flexible forward simulator for populations subject to selection and demography.
 
@@ -49,4 +49,4 @@ A flexible forward population genetic simulation program with a bevy of features
 
 R script to correct your site frequency spectrum for ancestral misidentification
 
-[Download](http://dbts.ucsf.edu/hernandez_lab/downloads/correction.tgz)
+[Download](/software/correction.tar)
