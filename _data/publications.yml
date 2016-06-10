@@ -1,3 +1,45 @@
+- abstract: 'BACKGROUND: Vaccines dramatically affect an individual''s adaptive immune
+    system and thus provide an excellent means to study human immunity. Upon vaccination,
+    the B cells that express antibodies (Abs) that happen to bind the vaccine are
+    stimulated to proliferate and undergo mutagenesis at their Ab locus. This process
+    may alter the composition of B cell lineages within an individual, which are known
+    collectively as the antibody repertoire (AbR). Antibodies are also highly expressed
+    in whole blood, potentially enabling RNA sequencing (RNA-seq) technologies to
+    query this diversity. Less is known about the diversity of AbR responses across
+    individuals to a given vaccine and if individuals tend to yield a similar response
+    to the same antigenic stimulus. METHODS: Here we implement a bioinformatic pipeline
+    that extracts the AbR information from a time-series RNA-seq dataset of five patients
+    who were administered a seasonal trivalent influenza vaccine (TIV). We harness
+    the detailed time-series nature of this dataset and use methods based in functional
+    data analysis (FDA) to identify the Abs that respond to the vaccine. We then design
+    and implement rigorous statistical tests in order to ask whether or not these
+    patients exhibit a convergent AbR response to the same TIV. RESULTS: We find that
+    high-resolution time-series data can be used to help identify the Abs that respond
+    to an antigenic stimulus and that this response can exhibit a convergent nature
+    across patients inoculated with the same vaccine. However, correlations in AbR
+    diversity among individuals prior to inoculation can confound inference of a convergent
+    signal unless it is taken into account. CONCLUSIONS: We developed a framework
+    to identify the elements of an AbR that respond to an antigen. This information
+    could be used to understand the diversity of different immune responses in different
+    individuals, as well as to gauge the effectiveness of the immune response to a
+    given stimulus within an individual. We also present a framework for testing a
+    convergent hypothesis between AbRs; a hypothesis that is more difficult to test
+    than previously appreciated. Our discovery of a convergent signal suggests that
+    similar epitopes do select for antibodies with similar sequence characteristics.'
+  authors:
+  - Strauli NB
+  - Hernandez RD
+  authors_full:
+  - Strauli, Nicolas B
+  - Hernandez, Ryan D
+  date: 2016-06-03 00:00:00
+  doi: 10.1186/s13073-016-0314-z
+  journal: Genome Med
+  journal_full: Genome Medicine
+  pmid: '27255379'
+  title: Statistical inference of a convergent antibody repertoire response to influenza
+    vaccine.
+  year: 2016
 - abstract: The role of rare alleles in complex phenotypes has been hotly debated,
     but most rare variant association tests (RVATs) do not account for the evolutionary
     forces that affect genetic architecture. Here, we use simulation and numerical
@@ -5,13 +47,13 @@
     can dramatically increase the impact of very rare alleles on trait variance. We
     then assess the ability of RVATs to detect causal loci using simulations and human
     RNA-seq data. Surprisingly, we find that statistical performance is worst for
-    phenotypes in which genetic variance is due mainly to rare alleles, and that explosive
-    population growth decreases power. While many studies have attempted to identify
+    phenotypes in which genetic variance is due mainly to rare alleles, and explosive
+    population growth decreases power. Although many studies have attempted to identify
     causal rare variants, few have reported novel associations. This has sometimes
     been interpreted to mean that rare variants make negligible contributions to complex
     trait heritability. Our work shows that RVATs are not robust to realistic human
-    evolutionary forces, so general conclusions about rare variants' impact on complex
-    traits may be premature.
+    evolutionary forces, so general conclusions about the impact of rare variants
+    on complex traits may be premature.
   authors:
   - Uricchio LH
   - Zaitlen NA
@@ -1591,6 +1633,63 @@
   pmid: '22325360'
   title: Resequencing candidate genes implicates rare variants in asthma susceptibility.
   year: 2012
+- abstract: Common variation in over 100 genes has been implicated in the risk of
+    developing asthma, but the contribution of rare variants to asthma susceptibility
+    remains largely unexplored. We selected nine genes that showed the strongest signatures
+    of weak purifying selection from among 53 candidate asthma-associated genes, and
+    we sequenced the coding exons and flanking noncoding regions in 450 asthmatic
+    cases and 515 nonasthmatic controls. We observed an overall excess of p values
+    <0.05 (p = 0.02), and rare variants in four genes (AGT, DPP10, IKBKAP, and IL12RB1)
+    contributed to asthma susceptibility among African Americans. Rare variants in
+    IL12RB1 were also associated with asthma susceptibility among European Americans,
+    despite the fact that the majority of rare variants in IL12RB1 were specific to
+    either one of the populations. The combined evidence of association with rare
+    noncoding variants in IL12RB1 remained significant (p = 3.7 x 10(-4)) after correcting
+    for multiple testing. Overall, the contribution of rare variants to asthma susceptibility
+    was predominantly due to noncoding variants in sequences flanking the exons, although
+    nonsynonymous rare variants in DPP10 and in IL12RB1 were associated with asthma
+    in African Americans and European Americans, respectively. This study provides
+    evidence that rare variants contribute to asthma susceptibility. Additional studies
+    are required for testing whether prioritizing genes for resequencing on the basis
+    of signatures of purifying selection is an efficient means of identifying novel
+    rare variants that contribute to complex disease.
+  authors:
+  - Torgerson DG
+  - Capurso D
+  - Mathias RA
+  - Graves PE
+  - Hernandez RD
+  - Beaty TH
+  - Bleecker ER
+  - Raby BA
+  - Meyers DA
+  - Barnes KC
+  - Weiss ST
+  - Martinez FD
+  - Nicolae DL
+  - Ober C
+  authors_full:
+  - Torgerson, Dara G
+  - Capurso, Daniel
+  - Mathias, Rasika A
+  - Graves, Penelope E
+  - Hernandez, Ryan D
+  - Beaty, Terri H
+  - Bleecker, Eugene R
+  - Raby, Benjamin A
+  - Meyers, Deborah A
+  - Barnes, Kathleen C
+  - Weiss, Scott T
+  - Martinez, Fernando D
+  - Nicolae, Dan L
+  - Ober, Carole
+  date: 2012-02-10 00:00:00
+  doi: 10.1016/j.ajhg.2012.01.008
+  journal: Am J Hum Genet
+  journal_full: American Journal of Human Genetics
+  pmid: '22325360'
+  title: Resequencing candidate genes implicates rare variants in asthma susceptibility.
+  year: 2012
 - abstract: Human immunodeficiency virus (HIV) has a small genome and therefore relies
     heavily on the host cellular machinery to replicate. Identifying which host proteins
     and complexes come into physical contact with the viral proteins is crucial for
@@ -3112,6 +3211,381 @@
   pmid: '17545186'
   title: Context dependence, ancestral misidentification, and spurious signatures
     of natural selection.
+  year: 2007
+- abstract: The rhesus macaque (Macaca mulatta) is an abundant primate species that
+    diverged from the ancestors of Homo sapiens about 25 million years ago. Because
+    they are genetically and physiologically similar to humans, rhesus monkeys are
+    the most widely used nonhuman primate in basic and applied biomedical research.
+    We determined the genome sequence of an Indian-origin Macaca mulatta female and
+    compared the data with chimpanzees and humans to reveal the structure of ancestral
+    primate genomes and to identify evidence for positive selection and lineage-specific
+    expansions and contractions of gene families. A comparison of sequences from individual
+    animals was used to investigate their underlying genetic diversity. The complete
+    description of the macaque genome blueprint enhances the utility of this animal
+    model for biomedical research and improves our understanding of the basic biology
+    of the species.
+  authors:
+  - Rhesus Macaque Genome Sequencing and Analysis Consortium
+  - Gibbs RA
+  - Rogers J
+  - Katze MG
+  - Bumgarner R
+  - Weinstock GM
+  - Mardis ER
+  - Remington KA
+  - Strausberg RL
+  - Venter JC
+  - Wilson RK
+  - Batzer MA
+  - Bustamante CD
+  - Eichler EE
+  - Hahn MW
+  - Hardison RC
+  - Makova KD
+  - Miller W
+  - Milosavljevic A
+  - Palermo RE
+  - Siepel A
+  - Sikela JM
+  - Attaway T
+  - Bell S
+  - Bernard KE
+  - Buhay CJ
+  - Chandrabose MN
+  - Dao M
+  - Davis C
+  - Delehaunty KD
+  - Ding Y
+  - Dinh HH
+  - Dugan-Rocha S
+  - Fulton LA
+  - Gabisi RA
+  - Garner TT
+  - Godfrey J
+  - Hawes AC
+  - Hernandez J
+  - Hines S
+  - Holder M
+  - Hume J
+  - Jhangiani SN
+  - Joshi V
+  - Khan ZM
+  - Kirkness EF
+  - Cree A
+  - Fowler RG
+  - Lee S
+  - Lewis LR
+  - Li Z
+  - Liu YS
+  - Moore SM
+  - Muzny D
+  - Nazareth LV
+  - Ngo DN
+  - Okwuonu GO
+  - Pai G
+  - Parker D
+  - Paul HA
+  - Pfannkoch C
+  - Pohl CS
+  - Rogers YH
+  - Ruiz SJ
+  - Sabo A
+  - Santibanez J
+  - Schneider BW
+  - Smith SM
+  - Sodergren E
+  - Svatek AF
+  - Utterback TR
+  - Vattathil S
+  - Warren W
+  - White CS
+  - Chinwalla AT
+  - Feng Y
+  - Halpern AL
+  - Hillier LW
+  - Huang X
+  - Minx P
+  - Nelson JO
+  - Pepin KH
+  - Qin X
+  - Sutton GG
+  - Venter E
+  - Walenz BP
+  - Wallis JW
+  - Worley KC
+  - Yang SP
+  - Jones SM
+  - Marra MA
+  - Rocchi M
+  - Schein JE
+  - Baertsch R
+  - Clarke L
+  - Csuros M
+  - Glasscock J
+  - Harris RA
+  - Havlak P
+  - Jackson AR
+  - Jiang H
+  - Liu Y
+  - Messina DN
+  - Shen Y
+  - Song HX
+  - Wylie T
+  - Zhang L
+  - Birney E
+  - Han K
+  - Konkel MK
+  - Lee J
+  - Smit AF
+  - Ullmer B
+  - Wang H
+  - Xing J
+  - Burhans R
+  - Cheng Z
+  - Karro JE
+  - Ma J
+  - Raney B
+  - She X
+  - Cox MJ
+  - Demuth JP
+  - Dumas LJ
+  - Han SG
+  - Hopkins J
+  - Karimpour-Fard A
+  - Kim YH
+  - Pollack JR
+  - Vinar T
+  - Addo-Quaye C
+  - Degenhardt J
+  - Denby A
+  - Hubisz MJ
+  - Indap A
+  - Kosiol C
+  - Lahn BT
+  - Lawson HA
+  - Marklein A
+  - Nielsen R
+  - Vallender EJ
+  - Clark AG
+  - Ferguson B
+  - Hernandez RD
+  - Hirani K
+  - Kehrer-Sawatzki H
+  - Kolb J
+  - Patil S
+  - Pu LL
+  - Ren Y
+  - Smith DG
+  - Wheeler DA
+  - Schenck I
+  - Ball EV
+  - Chen R
+  - Cooper DN
+  - Giardine B
+  - Hsu F
+  - Kent WJ
+  - Lesk A
+  - Nelson DL
+  - O'brien WE
+  - Prufer K
+  - Stenson PD
+  - Wallace JC
+  - Ke H
+  - Liu XM
+  - Wang P
+  - Xiang AP
+  - Yang F
+  - Barber GP
+  - Haussler D
+  - Karolchik D
+  - Kern AD
+  - Kuhn RM
+  - Smith KE
+  - Zwieg AS
+  authors_full:
+  - Rhesus Macaque Genome Sequencing and Analysis Consortium
+  - Gibbs, Richard A
+  - Rogers, Jeffrey
+  - Katze, Michael G
+  - Bumgarner, Roger
+  - Weinstock, George M
+  - Mardis, Elaine R
+  - Remington, Karin A
+  - Strausberg, Robert L
+  - Venter, J Craig
+  - Wilson, Richard K
+  - Batzer, Mark A
+  - Bustamante, Carlos D
+  - Eichler, Evan E
+  - Hahn, Matthew W
+  - Hardison, Ross C
+  - Makova, Kateryna D
+  - Miller, Webb
+  - Milosavljevic, Aleksandar
+  - Palermo, Robert E
+  - Siepel, Adam
+  - Sikela, James M
+  - Attaway, Tony
+  - Bell, Stephanie
+  - Bernard, Kelly E
+  - Buhay, Christian J
+  - Chandrabose, Mimi N
+  - Dao, Marvin
+  - Davis, Clay
+  - Delehaunty, Kimberly D
+  - Ding, Yan
+  - Dinh, Huyen H
+  - Dugan-Rocha, Shannon
+  - Fulton, Lucinda A
+  - Gabisi, Ramatu Ayiesha
+  - Garner, Toni T
+  - Godfrey, Jennifer
+  - Hawes, Alicia C
+  - Hernandez, Judith
+  - Hines, Sandra
+  - Holder, Michael
+  - Hume, Jennifer
+  - Jhangiani, Shalini N
+  - Joshi, Vandita
+  - Khan, Ziad Mohid
+  - Kirkness, Ewen F
+  - Cree, Andrew
+  - Fowler, R Gerald
+  - Lee, Sandra
+  - Lewis, Lora R
+  - Li, Zhangwan
+  - Liu, Yih-Shin
+  - Moore, Stephanie M
+  - Muzny, Donna
+  - Nazareth, Lynne V
+  - Ngo, Dinh Ngoc
+  - Okwuonu, Geoffrey O
+  - Pai, Grace
+  - Parker, David
+  - Paul, Heidie A
+  - Pfannkoch, Cynthia
+  - Pohl, Craig S
+  - Rogers, Yu-Hui
+  - Ruiz, San Juana
+  - Sabo, Aniko
+  - Santibanez, Jireh
+  - Schneider, Brian W
+  - Smith, Scott M
+  - Sodergren, Erica
+  - Svatek, Amanda F
+  - Utterback, Teresa R
+  - Vattathil, Selina
+  - Warren, Wesley
+  - White, Courtney Sherell
+  - Chinwalla, Asif T
+  - Feng, Yucheng
+  - Halpern, Aaron L
+  - Hillier, Ladeana W
+  - Huang, Xiaoqiu
+  - Minx, Pat
+  - Nelson, Joanne O
+  - Pepin, Kymberlie H
+  - Qin, Xiang
+  - Sutton, Granger G
+  - Venter, Eli
+  - Walenz, Brian P
+  - Wallis, John W
+  - Worley, Kim C
+  - Yang, Shiaw-Pyng
+  - Jones, Steven M
+  - Marra, Marco A
+  - Rocchi, Mariano
+  - Schein, Jacqueline E
+  - Baertsch, Robert
+  - Clarke, Laura
+  - Csuros, Miklos
+  - Glasscock, Jarret
+  - Harris, R Alan
+  - Havlak, Paul
+  - Jackson, Andrew R
+  - Jiang, Huaiyang
+  - Liu, Yue
+  - Messina, David N
+  - Shen, Yufeng
+  - Song, Henry Xing-Zhi
+  - Wylie, Todd
+  - Zhang, Lan
+  - Birney, Ewan
+  - Han, Kyudong
+  - Konkel, Miriam K
+  - Lee, Jungnam
+  - Smit, Arian F A
+  - Ullmer, Brygg
+  - Wang, Hui
+  - Xing, Jinchuan
+  - Burhans, Richard
+  - Cheng, Ze
+  - Karro, John E
+  - Ma, Jian
+  - Raney, Brian
+  - She, Xinwei
+  - Cox, Michael J
+  - Demuth, Jeffery P
+  - Dumas, Laura J
+  - Han, Sang-Gook
+  - Hopkins, Janet
+  - Karimpour-Fard, Anis
+  - Kim, Young H
+  - Pollack, Jonathan R
+  - Vinar, Tomas
+  - Addo-Quaye, Charles
+  - Degenhardt, Jeremiah
+  - Denby, Alexandra
+  - Hubisz, Melissa J
+  - Indap, Amit
+  - Kosiol, Carolin
+  - Lahn, Bruce T
+  - Lawson, Heather A
+  - Marklein, Alison
+  - Nielsen, Rasmus
+  - Vallender, Eric J
+  - Clark, Andrew G
+  - Ferguson, Betsy
+  - Hernandez, Ryan D
+  - Hirani, Kashif
+  - Kehrer-Sawatzki, Hildegard
+  - Kolb, Jessica
+  - Patil, Shobha
+  - Pu, Ling-Ling
+  - Ren, Yanru
+  - Smith, David Glenn
+  - Wheeler, David A
+  - Schenck, Ian
+  - Ball, Edward V
+  - Chen, Rui
+  - Cooper, David N
+  - Giardine, Belinda
+  - Hsu, Fan
+  - Kent, W James
+  - Lesk, Arthur
+  - Nelson, David L
+  - O'brien, William E
+  - Prufer, Kay
+  - Stenson, Peter D
+  - Wallace, James C
+  - Ke, Hui
+  - Liu, Xiao-Ming
+  - Wang, Peng
+  - Xiang, Andy Peng
+  - Yang, Fan
+  - Barber, Galt P
+  - Haussler, David
+  - Karolchik, Donna
+  - Kern, Andy D
+  - Kuhn, Robert M
+  - Smith, Kayla E
+  - Zwieg, Ann S
+  date: 2007-04-13 00:00:00
+  doi: 10.1126/science.1139247
+  journal: Science
+  journal_full: Science (New York, N.Y.)
+  pmid: '17431167'
+  title: Evolutionary and biomedical insights from the rhesus macaque genome.
   year: 2007
 - abstract: The rhesus macaque (Macaca mulatta) is an abundant primate species that
     diverged from the ancestors of Homo sapiens about 25 million years ago. Because
