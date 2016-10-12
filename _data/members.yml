@@ -61,13 +61,10 @@
       image: /static/img/headshot-Tong.jpg
       name: "Dominic Tong"
 - 
-  group: Staff
+  group: "Former Members"
   members: 
     - 
       name: "Daniel Vasco"
-- 
-  group: "Former Members"
-  members: 
     - 
       name: "Cyrus Maher"
     - 
